@@ -4,8 +4,13 @@ image: images/equipe/antonio-simoes.jpg
 role: mestrado
 affiliation: Museu de Zoologia da USP
 aliases:
-  - A. M. Simões
-  - A. Simões
+- A. M. Simões
+- A. Simões
+bio: Bacharel em Ciências Biológicas pela UnB, onde estudou vespas caça-aranhas (Pompilidae). No mestrado, investiga a filogenia e a biogeografia de *Priochilus*.
+bio_en: BSc in Biology (University of Brasília), where he studied spider wasps (Pompilidae). His MSc investigates the phylogeny and biogeography of *Priochilus*.
+links:
+  orcid: 0009-0009-0526-130X
+  lattes: '6853005931483782'
 ---
 
 **Projeto:** Filogenia e biogeografia do gênero *Priochilus* Banks, 1944 (Hymenoptera: Pompilidae).

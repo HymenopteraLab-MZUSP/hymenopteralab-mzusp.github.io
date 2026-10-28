@@ -1,5 +1,6 @@
 ---
 title: "Exposição \"Existe Bicho em SP?\" na Avenida Paulista"
+image: images/noticias/exposicao-existe-bicho-em-sp.jpg
 author: gabriela-camacho
 tags:
   - exposição

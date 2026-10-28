@@ -12,13 +12,15 @@ As pesquisas do laboratório são possíveis graças aos projetos e bolsas abaix
 
 {% include section.html %}
 
-## Projeto do laboratório
+## Projetos coordenados
 
-| Projeto | Financiador e modalidade | Processo |
-| --- | --- | --- |
-| Desvendando padrões ocultos: explorando a diversidade e o endemismo filogenético das formigas da Mata Atlântica por meio de dados genômicos | FAPESP — Auxílio à Pesquisa Jovem Pesquisador | [2023/12809-0](https://bv.fapesp.br/pt/auxilios/116201/) |
+| Projeto | Financiador e modalidade | Coordenação | Processo |
+| --- | --- | --- | --- |
+| Desvendando padrões ocultos: explorando a diversidade e o endemismo filogenético das formigas da Mata Atlântica por meio de dados genômicos | FAPESP — Auxílio à Pesquisa Jovem Pesquisador | Gabriela Procópio Camacho | [2023/12809-0](https://bv.fapesp.br/pt/auxilios/116201/) |
+| Explorando DNA histórico em museus: um centro de museômica para expandir o valor das coleções biológicas e promover a descoberta da biodiversidade | FAPESP — Equipamentos Multiusuários (EMU) | Luís Fábio Silveira, Joyce Rodrigues do Prado e Gabriela Procópio Camacho | [2022/11560-6](https://bv.fapesp.br/pt/auxilios/113159/) |
+| Aprimoramento da infraestrutura para curadoria de Hymenoptera no MZSP | Pró-Reitoria de Pesquisa e Inovação da USP (PRPI-USP) | Gabriela Procópio Camacho | — |
 
-Produtos ligados a este projeto: [ver na página Produtos](../projects/?topic=fapesp-2023-12809-0).
+Produtos ligados ao projeto Jovem Pesquisador: [ver na página Produtos](../projects/?topic=fapesp-2023-12809-0).
 
 {% include section.html %}
 
@@ -30,28 +32,32 @@ Produtos ligados a este projeto: [ver na página Produtos](../projects/?topic=fa
 | Antônio Moraes Simões | Filogenia e biogeografia do gênero *Priochilus* (Pompilidae) | FAPESP — Mestrado | [2025/15702-8](https://bv.fapesp.br/pt/bolsas/233624/) |
 | Davi Vilaça Carvalho | Modelagem de nicho ecológico e padrões de diversidade de formigas na Mata Atlântica | FAPESP — Mestrado | [2025/26484-1](https://bv.fapesp.br/pt/bolsas/236854/) |
 | Diego Mussolini Matielo | Revisão taxonômica do gênero *Ectatomma*: evidências morfológicas e genômicas | FAPESP — Mestrado | [2025/19385-7](https://bv.fapesp.br/pt/bolsas/238385/) |
+| Samara Santos | Revisão taxonômica de *Alfaria* com métodos integrativos | FAPESP — Mestrado | [2023/07490-5](https://bv.fapesp.br/pt/bolsas/222449/) |
+| Samara Santos | Revisão taxonômica de *Alfaria* com métodos integrativos | FAPESP — Estágio de Pesquisa no Exterior (BEPE) | [2025/03289-9](https://bv.fapesp.br/pt/bolsas/229250/) |
+| Henrique Pereira Moleiro | Estudo taxonômico e filogenômico das espécies de *Leurus* (Ichneumonidae) do Brasil | CAPES — Mestrado (Demanda Social) | — |
 | Gustavo de Oliveira Cordeiro do Rosario | Padrões espaciais de diversidade de formigas da Mata Atlântica | FAPESP — Iniciação científica | [2025/15676-7](https://bv.fapesp.br/pt/bolsas/231169/) |
+| Enzo Bodani | Inventário da mirmecofauna do Bioparque de Serra Negra, São Paulo | USP — Programa Unificado de Bolsas (PUB) | — |
+| Samyra Paixão | Do espécime à tela: digitalização e acesso online à coleção-tipo de formigas do MZUSP | USP — Programa Unificado de Bolsas (PUB) | — |
 | Gabriela Chagas Silva | Digitalização e tombamento do acervo de formigas do MZUSP | FAPESP — Treinamento Técnico | [2025/01154-9](https://bv.fapesp.br/pt/bolsas/225283/) |
 | Débora Yumi Kayano | Geração, processamento e análise bioinformática de DNA de formigas da Mata Atlântica | FAPESP — Treinamento Técnico | [2026/21213-2](https://bv.fapesp.br/pt/bolsas/249814/) |
 | Henrique Pereira Moleiro | Geração, processamento e análise bioinformática de DNA de formigas da Mata Atlântica | FAPESP — Treinamento Técnico | [2025/15215-0](https://bv.fapesp.br/pt/bolsas/232573/) |
 | Leonardo de Andrade | Preparação de espécimes e gestão de formigas na Coleção de Hymenoptera do MZUSP | FAPESP — Treinamento Técnico | [2025/20606-8](https://bv.fapesp.br/pt/bolsas/235267/) |
-| Samara Santos | Revisão taxonômica de *Alfaria* com métodos integrativos | FAPESP — Mestrado | [ver na BV](https://bv.fapesp.br/pt/bolsas/222449/) |
-| Samara Santos | Revisão taxonômica de *Alfaria* com métodos integrativos | FAPESP — Estágio de Pesquisa no Exterior (BEPE) | [ver na BV](https://bv.fapesp.br/pt/bolsas/229250/) |
-| Samyra Paixão | Do espécime à tela: digitalização e acesso online à coleção-tipo de formigas do MZUSP | USP — Programa Unificado de Bolsas (PUB) | — |
 
 {% include section.html %}
 
 ## Outros projetos de que participo
 
-| Projeto | Financiador e modalidade | Participação | Processo |
-| --- | --- | --- | --- |
-| Amostra velha é que conta história boa: a história evolutiva dos mamíferos da Diagonal de Vegetações Abertas da América do Sul contada pelas coleções biológicas | FAPESP — Jovem Pesquisador (BIOTA) | Pesquisadora associada | [2022/12632-0](https://bv.fapesp.br/pt/auxilios/112232/) |
-| Desimpedimento taxonômico de vespas aculeadas: visões micro e macrorregionais da fauna neotropical | FAPESP — Projeto Temático | Pesquisadora associada | [2019/09215-6](https://bv.fapesp.br/pt/auxilios/106049/) |
-| Explorando DNA histórico em museus: um centro de museômica para expandir o valor das coleções biológicas e promover a descoberta da biodiversidade | FAPESP — Equipamentos Multiusuários (EMU) | Coordena a instalação do Centro de Museômica do MZUSP | [2022/11560-6](https://bv.fapesp.br/pt/auxilios/113159/) |
-| Formigas-lava-pés na Mata Atlântica: da morfologia ao impacto causado | FAPESP — Auxílio à Pesquisa Regular | Pesquisadora associada | — |
-| Programa de Pesquisa em Biodiversidade (PPBio) — Rede Biota do Cerrado | CNPq — PPBio | Pesquisadora associada | — |
-| Instituto Nacional de Ciência e Tecnologia Biota do Cerrado (INCT Biota do Cerrado) | CNPq — INCT | Pesquisadora associada | — |
-| INCT Genômica da Biodiversidade | CNPq/SECTICS/CAPES/FAPs — Chamada nº 46/2024 | Pesquisadora associada | — |
+| Projeto | Coordenação | Financiador e modalidade | Participação | Processo |
+| --- | --- | --- | --- | --- |
+| Amostra velha é que conta história boa: a história evolutiva dos mamíferos da Diagonal de Vegetações Abertas da América do Sul contada pelas coleções biológicas | Joyce Rodrigues do Prado | FAPESP — Jovem Pesquisador (BIOTA) | Colaboradora | [2022/12632-0](https://bv.fapesp.br/pt/auxilios/112232/) |
+| Desimpedimento taxonômico de vespas aculeadas: visões micro e macrorregionais da fauna neotropical | Fernando Noll | FAPESP — Projeto Temático | Colaboradora | [2019/09215-6](https://bv.fapesp.br/pt/auxilios/106049/) |
+| Impactos da urbanização ao longo do tempo em múltiplos táxons de animais em uma metrópole neotropical através da utilização de isótopos estáveis | Ana Beatriz Navarro e Luís Fábio Silveira | FAPESP — Pós-doutorado | Colaboradora | [2025/07291-8](https://bv.fapesp.br/pt/bolsas/230555/) |
+| Formigas-lava-pés na Mata Atlântica brasileira: da morfologia ao impacto causado | Maria Santina Morini | FAPESP — Auxílio à Pesquisa Regular | Colaboradora | — |
+| INCT Genômica da Biodiversidade | Eduardo Eizirik | CNPq/SECTICS/CAPES/FAPs — Chamada nº 46/2024 | Colaboradora | — |
+| Instituto Nacional de Ciência e Tecnologia Biota do Cerrado (INCT Biota do Cerrado) | — | CNPq — INCT | Colaboradora | — |
+| Programa de Pesquisa em Biodiversidade (PPBio) — Rede Biota do Cerrado | — | CNPq — PPBio | Colaboradora | — |
+| Rede BioGenomas — GenoTropics | — | — | Colaboradora | — |
+| Ciência em Rede: integrando dados mirmecológicos para pesquisa e gestão da biodiversidade | — | — | Colaboradora | — |
 
 {% include section.html %}
 

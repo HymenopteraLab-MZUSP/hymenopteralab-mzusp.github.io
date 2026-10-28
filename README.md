@@ -4,7 +4,7 @@
 
 Acesse: **[hymenopteralab-mzusp.github.io](https://hymenopteralab-mzusp.github.io)**
 
-Este repositório gera o site do laboratório. Cada alteração enviada para o branch `main` reconstrói o site automaticamente.
+Este repositório gera o site do laboratório. Cada alteração enviada para o branch `main` reconstrói o site automaticamente em poucos minutos.
 
 Para atualizar equipe, publicações, produtos, financiamento e notícias, veja **[COMO-EDITAR.md](COMO-EDITAR.md)**.
 

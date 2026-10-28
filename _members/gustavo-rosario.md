@@ -4,7 +4,9 @@ image: images/equipe/gustavo-rosario.jpg
 role: undergrad
 affiliation: Museu de Zoologia da USP
 aliases:
-  - G. O. C. Rosario
+- G. O. C. Rosario
+bio: Estudante de iniciação científica. Estuda padrões espaciais de diversidade de formigas da Mata Atlântica.
+bio_en: Undergraduate researcher studying spatial patterns of ant diversity in the Atlantic Forest.
 ---
 
 **Projeto:** Padrões espaciais de diversidade de formigas da Mata Atlântica.

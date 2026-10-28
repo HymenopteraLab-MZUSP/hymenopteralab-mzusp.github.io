@@ -4,7 +4,9 @@ image: images/equipe/gabriela-chagas.jpg
 role: tecnico
 affiliation: Museu de Zoologia da USP
 aliases:
-  - G. C. Silva
+- G. C. Silva
+bio: Bolsista de Treinamento Técnico na digitalização e no tombamento do acervo de formigas do MZUSP. Prepara projeto de mestrado sobre *Megalomyrmex foreli*.
+bio_en: Technical trainee working on the digitization and cataloguing of the MZUSP ant collection. She is preparing an MSc project on *Megalomyrmex foreli*.
 ---
 
 **Projeto:** Digitalização e tombamento do acervo de formigas do MZUSP. Prepara projeto de mestrado sobre *Megalomyrmex foreli*.

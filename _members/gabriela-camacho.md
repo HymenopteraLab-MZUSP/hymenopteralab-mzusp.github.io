@@ -6,15 +6,17 @@ description: Pesquisadora responsável e curadora
 description_en: Principal Investigator and Curator
 affiliation: Museu de Zoologia da USP
 aliases:
-  - G. P. Camacho
-  - G.P. Camacho
-  - Gabriela P. Camacho
+- G. P. Camacho
+- G.P. Camacho
+- Gabriela P. Camacho
 links:
   email: gpcamacho@usp.br
   orcid: 0000-0002-8792-7719
-  lattes: "3315430116303083"
+  lattes: '3315430116303083'
   google-scholar: MetvTvYAAAAJ
   github: HymenopteraLab-MZUSP
+bio: Professora do MZUSP e curadora da Coleção de Hymenoptera. Estuda sistemática, filogenômica e biogeografia de formigas, com foco na Mata Atlântica.
+bio_en: Professor at MZUSP and curator of the Hymenoptera Collection. She studies ant systematics, phylogenomics and biogeography, with a focus on the Atlantic Forest.
 ---
 
 Professora doutora do Museu de Zoologia da Universidade de São Paulo (MZUSP) desde 2022 e curadora da Coleção de Hymenoptera.

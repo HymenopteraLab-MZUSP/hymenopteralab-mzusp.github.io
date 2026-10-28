@@ -1,0 +1,34 @@
+{%- comment -%}
+  Cartão de um membro na página Equipe: foto, nome, função, perfil (bio / bio_en)
+  e links acadêmicos (Lattes, ORCID, Google Scholar), quando existirem.
+{%- endcomment -%}
+{%- assign card_lang = page.lang | default: site.lang -%}
+{%- assign m = include.member -%}
+{%- assign m_type = site.data.types[m.role] -%}
+{%- if card_lang == "en" -%}
+{%- assign m_role = m.description_en | default: m_type.description_en | default: m.description | default: m_type.description -%}
+{%- assign m_bio = m.bio_en | default: m.bio -%}
+{%- else -%}
+{%- assign m_role = m.description | default: m_type.description -%}
+{%- assign m_bio = m.bio -%}
+{%- endif -%}
+<div class="member-card">
+<a class="member-card-photo" href="{{ m.url | relative_url }}" aria-label="{{ m.name }}">
+<img src="{{ m.image | relative_url | uri_escape }}" alt="{{ m.name }}" loading="lazy" {% include fallback.html %}>
+</a>
+<div class="member-card-text">
+<a class="member-card-name" href="{{ m.url | relative_url }}">{{ m.name }}</a>
+<span class="member-card-role">{{ m_role }}</span>
+{%- if m_bio %}
+<div class="member-card-bio">{{ m_bio | markdownify }}</div>
+{%- endif %}
+<div class="member-card-links">
+{%- assign link_keys = "lattes,orcid,google-scholar" | split: "," -%}
+{%- for key in link_keys -%}
+{%- if m.links[key] -%}
+{% include button.html type=key link=m.links[key] style="bare" text="" %}
+{%- endif -%}
+{%- endfor -%}
+</div>
+</div>
+</div>

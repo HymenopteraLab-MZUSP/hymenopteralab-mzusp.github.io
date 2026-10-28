@@ -1,5 +1,6 @@
 ---
 title: "Expedição Tulu-Tuloi II à Serra do Aracá"
+image: images/noticias/expedicao-tulu-tuloi-ii.jpg
 author: gabriela-camacho
 tags:
   - expedição

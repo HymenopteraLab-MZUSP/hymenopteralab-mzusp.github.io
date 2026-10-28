@@ -1,0 +1,10 @@
+{%- comment -%}
+  Mapa incorporado do Google Maps. Parâmetros: query (endereço ou nome do local) e title.
+{%- endcomment -%}
+<div class="map-box">
+<iframe src="https://www.google.com/maps?q={{ include.query | url_encode }}&output=embed" title="{{ include.title }}" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+</div>
+<style>
+.map-box { border: 1px solid var(--light-gray, #ddd); border-radius: var(--rounded, 10px); overflow: hidden; margin: 20px 0; }
+.map-box iframe { display: block; width: 100%; height: 380px; border: 0; }
+</style>

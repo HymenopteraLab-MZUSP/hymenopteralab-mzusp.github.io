@@ -17,15 +17,10 @@ For visits to the Hymenoptera Collection, loans, sending material, or joining th
   text="gpcamacho@usp.br"
   link="gpcamacho@usp.br"
 %}
-{%
-  include button.html
-  type="address"
-  text="Museum of Zoology, USP"
-  tooltip="See on Google Maps"
-  link="https://www.google.com/maps/search/?api=1&query=Museu+de+Zoologia+da+USP"
-%}
 
 {% include section.html %}
+
+{% include map.html query="Museu de Zoologia da USP, Avenida Nazaré, 481, Ipiranga, São Paulo" title="Location of the Museum of Zoology, USP" %}
 
 **Hymenoptera Laboratory**
 Museum of Zoology, University of São Paulo (MZUSP)

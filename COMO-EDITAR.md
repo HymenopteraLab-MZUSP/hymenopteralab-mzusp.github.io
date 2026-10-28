@@ -12,7 +12,7 @@ Tudo se edita direto no GitHub: abra o arquivo, clique no lápis (**Edit**), alt
 | Equipe | um arquivo por pessoa em `_members/`; ordem e nomes das categorias em `_data/team_sections.yaml` |
 | Financiamento | `funding/index.md` |
 | Notícias | um arquivo por notícia em `_posts/`; tabela "Na mídia" em `blog/index.md` e `en/news/index.md` |
-| Contato | `contact/index.md` |
+| Contato (com mapa) | `contact/index.md` |
 | Fotos e imagens | pasta `images/` |
 | Versão em inglês | pasta `en/` (uma página para cada página em português) |
 | Textos fixos da interface (menus, busca) | `_data/strings.yaml` |
@@ -35,12 +35,15 @@ links:
   email: nome@usp.br
   orcid: 0000-0000-0000-0000
   lattes: "0000000000000000"
+  google-scholar: XXXXXXXXXXXX
+bio: Uma ou duas frases de perfil, que aparecem no cartão da página Equipe.
+bio_en: The same profile in English.
   github: usuario-github
 ---
 
 **Projeto:** título do projeto.
 
-**Bolsa:** modalidade, agência, processo e vigência.
+**Bolsa:** modalidade, agência e processo.
 ```
 
 Valores de `role` (cada um vira uma categoria na página Equipe): `principal-investigator` (Pesquisadora principal), `gerente` (Gerente de coleções), `pesquisador`, `postdoc`, `phd` (Doutorado), `mestrado`, `undergrad` (Iniciação científica), `extensao`, `tecnico` (Treinamento técnico), `colaborador`, `ex-membro` (Egressos).
@@ -66,7 +69,7 @@ Em `_posts/`, crie um arquivo `AAAA-MM-DD-titulo-curto.md`:
 ---
 title: Defesa de mestrado de Nome Sobrenome
 author: gabriela-camacho
-image: images/noticias/foto.jpg
+image: images/noticias/titulo-curto.jpg   # imagem que aparece na lista de notícias
 tags:
   - defesa
 ---

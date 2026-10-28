@@ -1,0 +1,13 @@
+{%- comment -%}
+  Mostra o perfil do Instagram do laboratório, pelo código de incorporação oficial do Instagram.
+  Parâmetro: user (nome do perfil, sem @).
+{%- endcomment -%}
+<div class="instagram-embed">
+<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/{{ include.user }}/" data-instgrm-version="14" style="max-width:540px; min-width:280px; width:100%; margin:0 auto;">
+<a href="https://www.instagram.com/{{ include.user }}/" target="_blank" rel="noopener">@{{ include.user }} no Instagram</a>
+</blockquote>
+<script async src="https://www.instagram.com/embed.js"></script>
+</div>
+<style>
+  .instagram-embed { display: flex; justify-content: center; margin: 20px 0; }
+</style>

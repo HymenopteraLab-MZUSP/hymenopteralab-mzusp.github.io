@@ -12,7 +12,7 @@ aliases:
 
 Coorientação: Cecilia Waichert.
 
-**Bolsa:** mestrado FAPESP, processo 2025/15702-8 (nov/2025 a jul/2027).
+**Bolsa:** mestrado FAPESP, processo [2025/15702-8](https://bv.fapesp.br/pt/bolsas/233624/).
 
 ---
 
@@ -20,6 +20,6 @@ Coorientação: Cecilia Waichert.
 
 **Project:** Phylogeny and biogeography of the genus *Priochilus* Banks, 1944 (Hymenoptera: Pompilidae). Co-advisor: Cecilia Waichert.
 
-**Fellowship:** FAPESP MSc fellowship, grant 2025/15702-8 (Nov 2025 to Jul 2027).
+**Fellowship:** FAPESP MSc fellowship, grant [2025/15702-8](https://bv.fapesp.br/en/bolsas/233624/).
 
 </div>

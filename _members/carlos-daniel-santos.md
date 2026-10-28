@@ -10,7 +10,7 @@ aliases:
 
 **Projeto:** Revelando caminhos evolutivos em formigas cultivadoras de fungos: um estudo filogenômico do gênero *Mycetomoellerius* Solomon et al., 2019 (Hymenoptera: Formicidae).
 
-**Bolsa:** doutorado FAPESP, processo 2024/20819-9 (ago/2025 a mar/2029).
+**Bolsa:** doutorado FAPESP, processo [2024/20819-9](https://bv.fapesp.br/pt/bolsas/230748/).
 
 ---
 
@@ -18,6 +18,6 @@ aliases:
 
 **Project:** Revealing evolutionary pathways in fungus-farming ants: a phylogenomic study of the genus *Mycetomoellerius* Solomon et al., 2019 (Hymenoptera: Formicidae).
 
-**Fellowship:** FAPESP PhD fellowship, grant 2024/20819-9 (Aug 2025 to Mar 2029).
+**Fellowship:** FAPESP PhD fellowship, grant [2024/20819-9](https://bv.fapesp.br/en/bolsas/230748/).
 
 </div>

@@ -31,7 +31,7 @@ Sistemática, filogenômica e biogeografia de formigas da Mata Atlântica e de o
 {%
   include button.html
   link="research"
-  text="Linhas de pesquisa e publicações"
+  text="Linhas de pesquisa"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -49,7 +49,7 @@ Sistemática, filogenômica e biogeografia de formigas da Mata Atlântica e de o
 
 {% capture text %}
 
-Protocolos, pipelines de análise, scripts e dados do laboratório, todos abertos e versionados no GitHub, com autoria e financiamento registrados.
+Publicações, protocolos, pipelines de análise, scripts e dados do laboratório, todos abertos e versionados no GitHub, com autoria e financiamento registrados.
 
 {%
   include button.html

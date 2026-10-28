@@ -32,7 +32,7 @@ Systematics, phylogenomics and biogeography of Atlantic Forest ants and other Hy
 {%
   include button.html
   link="en/research"
-  text="Research lines and publications"
+  text="Research lines"
   icon="fa-solid fa-arrow-right"
   flip=true
   style="bare"
@@ -50,7 +50,7 @@ Systematics, phylogenomics and biogeography of Atlantic Forest ants and other Hy
 
 {% capture text %}
 
-Protocols, analysis pipelines, scripts and data from the lab, all open and versioned on GitHub, with authorship and funding recorded.
+Publications, protocols, analysis pipelines, scripts and data from the lab, all open and versioned on GitHub, with authorship and funding recorded.
 
 {%
   include button.html

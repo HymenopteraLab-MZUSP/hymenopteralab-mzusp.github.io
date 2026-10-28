@@ -1,0 +1,37 @@
+# Ordem e títulos das categorias da página Equipe.
+# Cada pessoa aparece na categoria do "role" definido no arquivo dela em _members/.
+# Categorias sem ninguém não aparecem.
+
+- role: principal-investigator
+  pt: Pesquisadora principal
+  en: Principal Investigator
+- role: gerente
+  pt: Gerente de coleções
+  en: Collection Manager
+- role: pesquisador
+  pt: Pesquisadores
+  en: Researchers
+- role: postdoc
+  pt: Pós-doutorado
+  en: Postdoctoral Researchers
+- role: phd
+  pt: Doutorado
+  en: PhD Students
+- role: mestrado
+  pt: Mestrado
+  en: MSc Students
+- role: undergrad
+  pt: Iniciação científica
+  en: Undergraduate Researchers
+- role: extensao
+  pt: Extensão
+  en: Outreach
+- role: tecnico
+  pt: Treinamento técnico
+  en: Technical Trainees
+- role: colaborador
+  pt: Colaboradores
+  en: Collaborators
+- role: ex-membro
+  pt: Egressos
+  en: Alumni

@@ -7,6 +7,16 @@ principal-investigator:
   description: Pesquisadora responsável
   description_en: Principal Investigator
 
+gerente:
+  icon: fa-solid fa-box-archive
+  description: Gerente de coleções
+  description_en: Collection Manager
+
+extensao:
+  icon: fa-solid fa-bullhorn
+  description: Extensão
+  description_en: Outreach Fellow
+
 pesquisador:
   icon: fa-solid fa-flask
   description: Pesquisador(a)

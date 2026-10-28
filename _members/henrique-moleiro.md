@@ -9,7 +9,7 @@ aliases:
 
 **Projeto:** Geração, processamento e análise bioinformática de DNA de formigas da Mata Atlântica, no Laboratório de Museômica do MZUSP.
 
-**Bolsa:** Treinamento Técnico (TT-IV) FAPESP, processo 2025/15215-0 (set/2025 a ago/2026).
+**Bolsa:** Treinamento Técnico FAPESP vinculada ao projeto Jovem Pesquisador, processo [2025/15215-0](https://bv.fapesp.br/pt/bolsas/232573/).
 
 ---
 
@@ -17,6 +17,6 @@ aliases:
 
 **Project:** Generation, processing and bioinformatic analysis of DNA from Atlantic Forest ants, at the MZUSP Museomics Laboratory.
 
-**Fellowship:** FAPESP Technical Training fellowship (TT-IV), grant 2025/15215-0 (Sep 2025 to Aug 2026).
+**Fellowship:** FAPESP Technical Training fellowship linked to the Young Investigator project, grant [2025/15215-0](https://bv.fapesp.br/en/bolsas/232573/).
 
 </div>

@@ -29,20 +29,20 @@ layout: default
 %}
 
 {% capture search -%}
-  research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+  projects/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
 
 {% capture search_en -%}
-  en/research/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
+  en/projects/?search={% for alias in aliases %}"{{ alias }}" {% endfor %}
 {%- endcapture %}
 
 <p class="center">
   <a href="{{ search | relative_url | uri_escape }}">
-    Ver publicações de {{ page.name | default: page.title }} na página Pesquisa
+    Ver publicações de {{ page.name | default: page.title }} na página Produtos
   </a>
   <br>
   <a href="{{ search_en | relative_url | uri_escape }}" lang="en">
-    See {{ page.name | default: page.title }}'s publications on the Research page
+    See {{ page.name | default: page.title }}'s publications on the Outputs page
   </a>
 </p>
 

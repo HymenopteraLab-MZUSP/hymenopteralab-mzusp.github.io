@@ -9,7 +9,7 @@ aliases:
 
 **Projeto:** Digitalização e tombamento do acervo de formigas do MZUSP. Prepara projeto de mestrado sobre *Megalomyrmex foreli*.
 
-**Bolsa:** Treinamento Técnico (TT-3) FAPESP vinculada ao projeto Jovem Pesquisador, desde mar/2025.
+**Bolsa:** Treinamento Técnico FAPESP vinculada ao projeto Jovem Pesquisador, processo [2025/01154-9](https://bv.fapesp.br/pt/bolsas/225283/).
 
 ---
 
@@ -17,6 +17,6 @@ aliases:
 
 **Project:** Digitization and cataloguing of the MZUSP ant collection. She is preparing an MSc project on *Megalomyrmex foreli*.
 
-**Fellowship:** FAPESP Technical Training fellowship (TT-3) linked to the Young Investigator project, since Mar 2025.
+**Fellowship:** FAPESP Technical Training fellowship linked to the Young Investigator project, grant [2025/01154-9](https://bv.fapesp.br/en/bolsas/225283/).
 
 </div>

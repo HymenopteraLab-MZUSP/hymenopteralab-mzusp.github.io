@@ -1,0 +1,18 @@
+{%- comment -%}
+  Lista a equipe por categoria, na ordem de _data/team_sections.yaml.
+  Categorias sem membros não aparecem.
+{%- endcomment -%}
+{%- assign team_lang = page.lang | default: site.lang -%}
+{%- for section in site.data.team_sections -%}
+{%- assign section_members = site.members | where: "role", section.role -%}
+{%- if section_members.size > 0 -%}
+{%- if team_lang == "en" -%}
+{%- assign section_title = section.en -%}
+{%- else -%}
+{%- assign section_title = section.pt -%}
+{%- endif -%}
+{%- capture section_filter -%}role == '{{ section.role }}'{%- endcapture %}
+<h2 id="{{ section.role }}">{{ section_title }}</h2>
+{% include list.html data="members" component="portrait" filter=section_filter %}
+{% endif -%}
+{%- endfor -%}

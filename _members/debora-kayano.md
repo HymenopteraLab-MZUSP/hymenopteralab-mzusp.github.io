@@ -9,7 +9,7 @@ aliases:
 
 **Projeto:** Geração, processamento e análise bioinformática de DNA de formigas da Mata Atlântica.
 
-**Bolsa:** Treinamento Técnico FAPESP vinculada ao projeto Jovem Pesquisador, desde set/2026.
+**Bolsa:** Treinamento Técnico FAPESP vinculada ao projeto Jovem Pesquisador, processo [2026/21213-2](https://bv.fapesp.br/pt/bolsas/249814/).
 
 ---
 
@@ -17,6 +17,6 @@ aliases:
 
 **Project:** Generation, processing and bioinformatic analysis of DNA from Atlantic Forest ants.
 
-**Fellowship:** FAPESP Technical Training fellowship linked to the Young Investigator project, since Sep 2026.
+**Fellowship:** FAPESP Technical Training fellowship linked to the Young Investigator project, grant [2026/21213-2](https://bv.fapesp.br/en/bolsas/249814/).
 
 </div>

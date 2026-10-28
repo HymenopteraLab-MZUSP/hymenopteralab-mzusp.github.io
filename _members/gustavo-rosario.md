@@ -9,7 +9,7 @@ aliases:
 
 **Projeto:** Padrões espaciais de diversidade de formigas da Mata Atlântica.
 
-**Bolsa:** iniciação científica FAPESP, processo 2025/15676-7 (set/2025 a ago/2026).
+**Bolsa:** iniciação científica FAPESP, processo [2025/15676-7](https://bv.fapesp.br/pt/bolsas/231169/).
 
 ---
 
@@ -17,6 +17,6 @@ aliases:
 
 **Project:** Spatial patterns of ant diversity in the Atlantic Forest.
 
-**Fellowship:** FAPESP undergraduate research fellowship, grant 2025/15676-7 (Sep 2025 to Aug 2026).
+**Fellowship:** FAPESP undergraduate research fellowship, grant [2025/15676-7](https://bv.fapesp.br/en/bolsas/231169/).
 
 </div>

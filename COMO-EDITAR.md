@@ -6,12 +6,12 @@ Tudo se edita direto no GitHub: abra o arquivo, clique no lápis (**Edit**), alt
 | --- | --- |
 | Título, descrição, links do rodapé | `_config.yaml` |
 | Página inicial | `index.md` |
-| Linhas de pesquisa | `research/index.md` |
+| Linhas de pesquisa (caixas com texto e imagem) | `research/index.md`; imagens em `images/pesquisa/` |
 | Publicações | `_data/orcid.yaml` (automático) ou `_data/sources.yaml` (por DOI) |
 | Produtos em destaque | `_data/projects.yaml` |
-| Equipe | um arquivo por pessoa em `_members/` |
+| Equipe | um arquivo por pessoa em `_members/`; ordem e nomes das categorias em `_data/team_sections.yaml` |
 | Financiamento | `funding/index.md` |
-| Notícias | um arquivo por notícia em `_posts/` |
+| Notícias | um arquivo por notícia em `_posts/`; tabela "Na mídia" em `blog/index.md` e `en/news/index.md` |
 | Contato | `contact/index.md` |
 | Fotos e imagens | pasta `images/` |
 | Versão em inglês | pasta `en/` (uma página para cada página em português) |
@@ -43,8 +43,8 @@ links:
 **Bolsa:** modalidade, agência, processo e vigência.
 ```
 
-Valores de `role`: `principal-investigator`, `pesquisador`, `postdoc`, `phd`, `mestrado`, `undergrad` (IC), `tecnico` (TT), `colaborador`, `ex-membro`.
-Quando alguém sair do laboratório, troque o `role` para `ex-membro`. Não apague o arquivo.
+Valores de `role` (cada um vira uma categoria na página Equipe): `principal-investigator` (Pesquisadora principal), `gerente` (Gerente de coleções), `pesquisador`, `postdoc`, `phd` (Doutorado), `mestrado`, `undergrad` (Iniciação científica), `extensao`, `tecnico` (Treinamento técnico), `colaborador`, `ex-membro` (Egressos).
+Quando alguém sair do laboratório, troque o `role` para `ex-membro`: a pessoa passa para Egressos. Não apague o arquivo.
 
 ## Publicações
 
@@ -54,7 +54,7 @@ Quando alguém sair do laboratório, troque o `role` para `ex-membro`. Não apag
 
 ## Produtos
 
-A lista "Todos os repositórios" é automática: mostra os repositórios **públicos** da organização, com os topics de cada um. Para um repositório aparecer em destaque, acrescente-o em `_data/projects.yaml`.
+As publicações ficam no topo da página Produtos. A lista "Todos os repositórios" é automática: mostra os repositórios **públicos** da organização, com os topics de cada um. Para um repositório aparecer em destaque, acrescente-o em `_data/projects.yaml`.
 
 Link direto para um filtro: `https://hymenopteralab-mzusp.github.io/projects/?topic=fapesp-2023-12809-0`.
 

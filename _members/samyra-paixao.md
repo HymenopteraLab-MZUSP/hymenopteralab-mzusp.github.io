@@ -1,9 +1,7 @@
 ---
 name: Samyra Paixão
 image: images/equipe/samyra-paixao.jpg
-role: undergrad
-description: Extensão (PUB)
-description_en: Outreach fellow (PUB)
+role: extensao
 affiliation: Museu de Zoologia da USP
 aliases:
   - S. Paixão
@@ -11,7 +9,7 @@ aliases:
 
 **Projeto:** Do espécime à tela: digitalização e acesso online à coleção-tipo de formigas do MZUSP.
 
-**Bolsa:** Programa Unificado de Bolsas (PUB) da USP, até fev/2027.
+**Bolsa:** Programa Unificado de Bolsas (PUB) da USP.
 
 ---
 
@@ -19,6 +17,6 @@ aliases:
 
 **Project:** From specimen to screen: digitization and online access to the MZUSP ant type collection.
 
-**Fellowship:** USP Unified Scholarship Program (PUB), until Feb 2027.
+**Fellowship:** USP Unified Scholarship Program (PUB).
 
 </div>

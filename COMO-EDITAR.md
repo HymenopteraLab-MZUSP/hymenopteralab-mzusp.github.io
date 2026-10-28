@@ -46,8 +46,8 @@ bio_en: The same profile in English.
 **Bolsa:** modalidade, agência e processo.
 ```
 
-Valores de `role` (cada um vira uma categoria na página Equipe): `principal-investigator` (Pesquisadora principal), `gerente` (Gerente de coleções), `pesquisador`, `postdoc`, `phd` (Doutorado), `mestrado`, `undergrad` (Iniciação científica), `extensao`, `tecnico` (Treinamento técnico), `colaborador`, `ex-membro` (Egressos).
-Quando alguém sair do laboratório, troque o `role` para `ex-membro`: a pessoa passa para Egressos. Não apague o arquivo.
+Valores de `role` (cada um vira uma categoria na página Equipe): `principal-investigator` (Pesquisadora principal), `gerente` (Gerente de coleções), `pesquisador`, `postdoc`, `phd` (Doutorado), `mestrado`, `undergrad` (Iniciação científica), `extensao`, `tecnico` (Treinamento técnico), `colaborador`, `coorientacao` (Coorientações) e, para egressos, `egresso-posdoc`, `egresso-doutorado`, `egresso-mestrado`, `egresso-tcc`, `egresso-ic`, `egresso-estagio` ou `ex-membro` (aparecem dentro de Egressos, em cartões sem foto).
+Quando alguém sair do laboratório, troque o `role` para a categoria de egresso correspondente e ajuste `description` (ex.: `Mestrado, 2026 — MZUSP`). Não apague o arquivo.
 
 ## Publicações
 

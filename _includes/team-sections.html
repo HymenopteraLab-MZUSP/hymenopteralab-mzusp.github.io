@@ -4,20 +4,36 @@
 {%- endcomment -%}
 {%- assign team_lang = page.lang | default: site.lang -%}
 {%- for section in site.data.team_sections -%}
-{%- assign section_members = site.members | where: "role", section.role -%}
-{%- if section_members.size > 0 -%}
 {%- if team_lang == "en" -%}
 {%- assign section_title = section.en -%}
 {%- else -%}
 {%- assign section_title = section.pt -%}
-{%- endif %}
+{%- endif -%}
+{%- if section.heading -%}
+{%- assign heading_roles = section.roles | split: "," -%}
+{%- assign heading_count = 0 -%}
+{%- for r in heading_roles -%}
+{%- assign rm = site.members | where: "role", r -%}
+{%- assign heading_count = heading_count | plus: rm.size -%}
+{%- endfor -%}
+{%- if heading_count > 0 %}
+<h2 id="egressos">{{ section_title }}</h2>
+{% endif -%}
+{%- else -%}
+{%- assign section_members = site.members | where: "role", section.role -%}
+{%- if section_members.size > 0 -%}
+{%- if section.sub %}
+<h3 id="{{ section.role }}">{{ section_title }}</h3>
+{%- else %}
 <h2 id="{{ section.role }}">{{ section_title }}</h2>
-<div class="member-cards">
+{%- endif %}
+<div class="member-cards{% if section.compact %} member-cards-compact{% endif %}">
 {%- for member in section_members %}
-{% include member-card.html member=member %}
+{% include member-card.html member=member compact=section.compact %}
 {%- endfor %}
 </div>
 {% endif -%}
+{%- endif -%}
 {%- endfor %}
 <style>
 .member-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; margin: 20px 0 40px; }
@@ -29,4 +45,7 @@
 .member-card-bio p { margin: 6px 0; font-size: 0.95em; line-height: 1.5; }
 .member-card-links { display: flex; flex-wrap: wrap; gap: 4px; }
 .member-card-links .button-wrapper { margin: 0; }
+.member-cards-compact { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 30px; }
+.member-cards-compact .member-card { padding: 12px; }
+.member-cards-compact .member-card-bio p { font-size: 0.9em; }
 </style>

@@ -10,11 +10,11 @@ aliases:
 - Gabriela P. Camacho
 links:
   email: gpcamacho@usp.br
-  orcid: [0000-0002-8792-7719](https://orcid.org/0000-0002-8792-7719)
-  lattes: [3315430116303083](http://lattes.cnpq.br/3315430116303083)
-  google-scholar: [MetvTvYAAAAJ](https://scholar.google.com/citations?user=MetvTvYAAAAJ&hl=en)
-  ResearcherID: [E-1440-2014](https://www.webofscience.com/wos/author/record/E-1440-2014) 
-  github: [gcamacho](https://github.com/gpcamacho)
+  orcid: 0000-0002-8792-7719
+  lattes: '3315430116303083'
+  google-scholar: MetvTvYAAAAJ
+  researcherid: E-1440-2014
+  github: gpcamacho
 bio: Professora Doutora do MZUSP e curadora da Coleção de Hymenoptera. Estudo sistemática, filogenômica e biogeografia de formigas, com foco na Mata Atlântica.
 bio_en: Assistant Professor at MZUSP and curator of the Hymenoptera Collection. I study ant systematics, phylogenomics and biogeography, with a focus on the Atlantic Forest.
 ---

@@ -13,9 +13,11 @@
 {%- assign m_bio = m.bio -%}
 {%- endif -%}
 <div class="member-card">
+{%- unless include.compact %}
 <a class="member-card-photo" href="{{ m.url | relative_url }}" aria-label="{{ m.name }}">
 <img src="{{ m.image | relative_url | uri_escape }}" alt="{{ m.name }}" loading="lazy" {% include fallback.html %}>
 </a>
+{%- endunless %}
 <div class="member-card-text">
 <a class="member-card-name" href="{{ m.url | relative_url }}">{{ m.name }}</a>
 <span class="member-card-role">{{ m_role }}</span>
@@ -23,10 +25,11 @@
 <div class="member-card-bio">{{ m_bio | markdownify }}</div>
 {%- endif %}
 <div class="member-card-links">
-{%- assign link_keys = "lattes,orcid,google-scholar" | split: "," -%}
+{%- assign link_keys = "lattes,orcid,google-scholar,researcherid" | split: "," -%}
 {%- for key in link_keys -%}
-{%- if m.links[key] -%}
-{% include button.html type=key link=m.links[key] style="bare" text="" %}
+{%- assign link_value = m.links[key] -%}
+{%- if link_value -%}
+{% include button.html type=key link=link_value style="bare" text="" %}
 {%- endif -%}
 {%- endfor -%}
 </div>

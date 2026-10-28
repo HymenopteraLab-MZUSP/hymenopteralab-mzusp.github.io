@@ -52,6 +52,41 @@ colaborador:
   description: Colaboração
   description_en: Collaborator
 
+coorientacao:
+  icon: fa-solid fa-people-arrows
+  description: Coorientação
+  description_en: Co-supervised
+
+egresso-posdoc:
+  icon: fa-solid fa-user-graduate
+  description: Egresso — pós-doutorado
+  description_en: Alumni — postdoc
+
+egresso-doutorado:
+  icon: fa-solid fa-user-graduate
+  description: Egresso — doutorado
+  description_en: Alumni — PhD
+
+egresso-mestrado:
+  icon: fa-solid fa-user-graduate
+  description: Egresso — mestrado
+  description_en: Alumni — MSc
+
+egresso-tcc:
+  icon: fa-solid fa-user-graduate
+  description: Egresso — TCC
+  description_en: Alumni — undergraduate thesis
+
+egresso-ic:
+  icon: fa-solid fa-user-graduate
+  description: Egresso — iniciação científica
+  description_en: Alumni — undergraduate research
+
+egresso-estagio:
+  icon: fa-solid fa-user-graduate
+  description: Egresso — estágio
+  description_en: Alumni — internship
+
 ex-membro:
   icon: fa-solid fa-user-clock
   description: Ex-membro
@@ -114,6 +149,12 @@ lattes:
   text: Lattes
   tooltip: Currículo Lattes
   link: http://lattes.cnpq.br/$VALUE
+
+researcherid:
+  icon: fa-solid fa-circle-user
+  text: ResearcherID
+  tooltip: Web of Science ResearcherID
+  link: https://www.webofscience.com/wos/author/record/$VALUE
 
 google-scholar:
   icon: fa-brands fa-google

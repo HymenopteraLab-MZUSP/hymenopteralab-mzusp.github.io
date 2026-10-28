@@ -1,6 +1,7 @@
 # Ordem e títulos das categorias da página Equipe.
 # Cada pessoa aparece na categoria do "role" definido no arquivo dela em _members/.
-# Categorias sem ninguém não aparecem.
+# Categorias sem ninguém não aparecem. "sub: true" = subcategoria (dentro de Egressos);
+# "compact: true" = cartão sem foto.
 
 - role: principal-investigator
   pt: Pesquisadora principal
@@ -32,6 +33,45 @@
 - role: colaborador
   pt: Colaboradores
   en: Collaborators
-- role: ex-membro
+- role: coorientacao
+  pt: Coorientações
+  en: Co-supervised students
+- heading: true
   pt: Egressos
   en: Alumni
+  roles: egresso-posdoc,egresso-doutorado,egresso-mestrado,egresso-tcc,egresso-ic,egresso-estagio,ex-membro
+- role: egresso-posdoc
+  pt: Pós-doutorado
+  en: Postdoctoral researchers
+  sub: true
+  compact: true
+- role: egresso-doutorado
+  pt: Doutorado
+  en: PhD
+  sub: true
+  compact: true
+- role: egresso-mestrado
+  pt: Mestrado
+  en: MSc
+  sub: true
+  compact: true
+- role: egresso-tcc
+  pt: Trabalho de conclusão de curso
+  en: Undergraduate thesis
+  sub: true
+  compact: true
+- role: egresso-ic
+  pt: Iniciação científica
+  en: Undergraduate research
+  sub: true
+  compact: true
+- role: egresso-estagio
+  pt: Estágios e outras orientações
+  en: Internships and other supervision
+  sub: true
+  compact: true
+- role: ex-membro
+  pt: Outros egressos
+  en: Other alumni
+  sub: true
+  compact: true

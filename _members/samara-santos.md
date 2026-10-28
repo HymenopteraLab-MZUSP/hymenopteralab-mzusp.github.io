@@ -9,8 +9,8 @@ links:
   orcid: 0000-0003-1971-9229
   lattes: '3800222217262047'
   google-scholar: SadIaXcAAAAJ
-bio: Mestra pelo MZUSP com a revisão taxonômica de *Alfaria* (2026). No doutorado, estuda a filogenia de evidência total de Ectatomminae, com UCEs, morfologia e fósseis.
-bio_en: MSc from MZUSP with a taxonomic revision of *Alfaria* (2026). Her PhD focuses on a total-evidence phylogeny of Ectatomminae using UCEs, morphology and fossils.
+bio: Mestra pelo MZUSP com a revisão taxonômica de *Alfaria* (2026). No doutorado, estuda a filogenia de evidência total de Ectatomminae, com UCEs, morfologia e fósseis. Antes do mestrado, estagiou no tombamento dos tipos de Formicidae (2022) e na digitalização da coleção de abelhas (2023).
+bio_en: MSc from MZUSP with a taxonomic revision of *Alfaria* (2026). Her PhD focuses on a total-evidence phylogeny of Ectatomminae using UCEs, morphology and fossils. Before her MSc she interned cataloguing the Formicidae types (2022) and digitizing the bee collection (2023).
 ---
 
 **Projeto:** Filogenia de evidência total de Ectatomminae: UCEs, morfologia e fósseis. No mestrado, defendido em 22 de maio de 2026, fez a revisão taxonômica do gênero *Alfaria*.

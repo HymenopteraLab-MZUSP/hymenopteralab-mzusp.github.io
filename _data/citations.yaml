@@ -1,2 +1,845 @@
 # DO NOT EDIT, GENERATED AUTOMATICALLY
-[]
+
+- id: doi:10.11646/zootaxa.5890.1.11
+  title: 'Gnamptogenys amazandina, a replacement name for the junior homonym Gnamptogenys
+    andina Longino et al. 2026 (Hymenoptera: Formicidae)'
+  authors:
+  - JOHN T LONGINO
+  - MICHAEL G BRANSTETTER
+  - RODRIGO MACHADO FEITOSA
+  - JOHN E LATTKE
+  - GABRIELA P CAMACHO
+  publisher: Zootaxa
+  date: '2026-10-14'
+  link: https://doi.org/hcqms2
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/isd/ixag029
+  title: "Shadow ants: a phylogenomically informed revision of the\n             \
+    \       <i>Gnamptogenys mordax</i>\n                    clade (Hymenoptera: Formicidae)"
+  authors:
+  - John T Longino
+  - Michael G Branstetter
+  - Rodrigo Machado Feitosa
+  - John E Lattke
+  - Gabriela P Camacho
+  publisher: Insect Systematics and Diversity
+  date: '2026-08-28'
+  link: https://doi.org/hcqms3
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3390/insects17070698
+  title: "Farmers\u2019 Perceptions of the Agricultural, Economic, and Health Impacts\
+    \ of Fire Ants in the Brazilian Atlantic Forest"
+  authors:
+  - Victor Hideki Nagatani
+  - Tiago Henrique Nascimento Dativa Vieira
+  - Kelly Carina Braga Bernardo
+  - Samira Daniele Gardziulis Maia Reis
+  - "Nath\xE1lia Sampaio da Silva"
+  - "Gabriela Proc\xF3pio Camacho"
+  - "Ot\xE1vio Guilherme Morais Silva"
+  - Dietrich Gotzek
+  - Maria Santina de Castro Morini
+  publisher: Insects
+  date: '2026-07-04'
+  link: https://doi.org/hcqms4
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/isd/ixag024
+  title: "Revisiting the identity of the enigmatic \u2020\n                    <i>Cariridris\
+    \ bipetiolata</i>\n                    (Hymenoptera: Aculeata) using micro-computed\
+    \ tomography"
+  authors:
+  - Anderson Lepeco
+  - Gabriela P Camacho
+  - Odair M Meira
+  - Diego M Matielo
+  - "Carlos R F Brand\xE3o"
+  publisher: Insect Systematics and Diversity
+  date: '2026-05-01'
+  link: https://doi.org/hcqms5
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10530-025-03720-3
+  title: 'Fire ants in the Brazilian Atlantic forest: history of occurrence and its
+    implications'
+  authors:
+  - Victor Hideki Nagatani
+  - Tiago Henrique Nascimento Dativa Vieira
+  - "Ot\xE1vio Guilherme Morais Silva"
+  - Rony Peterson Santos Almeida
+  - "Gabriela Proc\xF3pio Camacho"
+  - Juliana Aparecida Calisto Vaz
+  - "Nath\xE1lia Sampaio da Silva"
+  - Dietrich Gotzek
+  - Milton Cezar Ribeiro
+  - Maria Santina de Castro Morini
+  publisher: Biological Invasions
+  date: '2025-12-13'
+  link: https://doi.org/hcqms6
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.3897/zookeys.1264.173399
+  title: A genus-level classification of the ant subfamily Ponerinae (Hymenoptera,
+    Formicidae)
+  authors:
+  - Brian L. Fisher
+  - Michael G. Branstetter
+  - Bonnie B. Blaimer
+  - Marek L. Borowiec
+  - Gabriela P. Camacho
+  - "Ma\xEBl Dor\xE9"
+  - Philip S. Ward
+  - John T. Longino
+  publisher: ZooKeys
+  date: '2025-12-19'
+  link: https://doi.org/hcqms7
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1038/s41467-025-63709-3
+  title: Evolutionary history of ponerine ants highlights how the timing of dispersal
+    events shapes modern biodiversity
+  authors:
+  - "Ma\xEBl Dor\xE9"
+  - Marek L. Borowiec
+  - Michael G. Branstetter
+  - Gabriela P. Camacho
+  - Brian L. Fisher
+  - John T. Longino
+  - Philip S. Ward
+  - Bonnie B. Blaimer
+  publisher: Nature Communications
+  date: '2025-09-16'
+  link: https://doi.org/g934ds
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ecog.07661
+  title: A zoogeographic model for the evolution of diversity and endemism in Madagascar
+  authors:
+  - Gabriela P. Camacho
+  - Ana Carolina Loss
+  - Brian L. Fisher
+  - Bonnie B. Blaimer
+  publisher: Ecography
+  date: '2025-04-08'
+  link: https://doi.org/hcqms8
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/isd/ixaf025
+  title: 'Ant systematics: past, present, and future'
+  authors:
+  - Jill T Oberski
+  - Zachary H Griebenow
+  - Rachelle M M Adams
+  - Alan Andersen
+  - Joudellys Andrade-Silva
+  - Phillip Barden
+  - Marek L Borowiec
+  - "Se\xE1n Brady"
+  - Alexandre Casadei-Ferreira
+  - "S\xE1ndor Cs\u0151sz"
+  - Amanda Martins Dias
+  - Ratnayake Kaluarachchige Sriyani Dias
+  - Rodrigo Machado Feitosa
+  - Fernando Fernandez
+  - Brian L Fisher
+  - David Emmanuel M General
+  - "Kik\xF3 Gomez"
+  - "J\xF6rg U Hammel"
+  - Peter G Hawkes
+  - Milan Janda
+  - Adam Khalife
+  - Natalia Ladino
+  - Ziv E Lieberman
+  - Andrea Lucky
+  - Mattia Menchetti
+  - "L\xEDvia Pires do Prado"
+  - Matthew M Prebus
+  - Rodolfo S Probst
+  - Aswaj Punnath
+  - Adrian Richter
+  - Sebastian Salata
+  - "Andr\xE9s F S\xE1nchez-Restrepo"
+  - Enrico Schifani
+  - Ted R Schultz
+  - "Rog\xE9rio R Silva"
+  - Jeffrey Sosa-Calvo
+  - Maria C Tocora
+  - "M\xF4nica Antunes Ulyss\xE9a"
+  - Thomas van de Kamp
+  - Wendy Y Wang
+  - Jason L Williams
+  - Gabriela Procopio Camacho
+  - Brendon E Boudinot
+  publisher: Insect Systematics and Diversity
+  date: '2025-06-01'
+  link: https://doi.org/g93n8n
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/biolinnean/blaf034
+  title: 'The MZSP Ant Type Collection: a complete catalogue and digital resource
+    for global access'
+  authors:
+  - "M\xF4nica Antunes Ulyss\xE9a"
+  - Samara Santos
+  - Henrique Pereira Moleiro
+  - "Carlos Roberto Ferreira Brand\xE3o"
+  - "Gabriela Proc\xF3pio Camacho"
+  publisher: Biological Journal of the Linnean Society
+  date: '2025-07-01'
+  link: https://doi.org/hcqms9
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.13102/sociobiology.v72i2.11416
+  title: Bee Systematics and Conservation
+  authors:
+  - Eduardo A. B. Almeida
+  - "Margarita M. L\xF3pez-Uribe"
+  - Laurence Packer
+  - Diego S. Porto
+  - Gabriela P. Camacho
+  publisher: Sociobiology
+  date: '2025-05-15'
+  link: https://doi.org/hcqmtb
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/J.CUB.2025.03.023
+  title: A hell ant from the Lower Cretaceous of Brazil
+  authors:
+  - Anderson Lepeco
+  - Odair M. Meira
+  - Diego M. Matielo
+  - "Carlos R.F. Brand\xE3o"
+  - Gabriela P. Camacho
+  publisher: Current Biology
+  date: '2025-05-01'
+  link: https://doi.org/g9gqz5
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/evolut/qpae142
+  title: Evolution and functional implications of stinger shape in ants
+  authors:
+  - Alexandre Casadei-Ferreira
+  - "Gabriela Proc\xF3pio Camacho"
+  - Thomas van de Kamp
+  - John E Lattke
+  - Rodrigo Machado Feitosa
+  - Evan P Economo
+  publisher: Evolution
+  date: '2024-10-05'
+  link: https://doi.org/hcqmtc
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11646/zootaxa.5418.4.3
+  title: "Preserving a Legacy: Ensuring the Access and Conservation of the Harold\
+    \ (Harry) G. Fowler (1950\u20132018) Ant Collection and Data"
+  authors:
+  - CLAUDIA TIEMI WAZEMA
+  - "OT\xC1VIO GUILHERME MORAIS DA SILVA"
+  - "FABR\xCDCIO SEVERO MAGALH\xC3ES"
+  - "L\xCDVIA PIRES DO PRADO"
+  - VICTOR HIDEKI NAGATANI
+  - NATHALIA SAMPAIO DA SILVA
+  - JULIANA APARECIDA CALISTO VAZ
+  - PAULO HENRIQUE ALVES DA SILVA
+  - "M\xD4NICA ANTUNES ULYSS\xC9A"
+  - "GABRIELA PROC\xD3PIO CAMACHO"
+  - GISELY DA SILVA FREITAS
+  - "CARLOS ROBERTO FERREIRA BRAND\xC3O"
+  - MARIA SANTINA DE CASTRO MORINI
+  publisher: Zootaxa
+  date: '2024-03-01'
+  link: https://doi.org/hcqmtd
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11606/1807-0205/2023.63.021
+  title: 'Contributions to the taxonomy of the Brazilian Leurus Townes, 1946 (Hymenoptera:
+    Ichneumonidae, Metopiinae)'
+  authors:
+  - Henrique Pereira Moleiro
+  - Helena Carolina Onody
+  - "Gabriela Proc\xF3pio Camacho"
+  - "Ang\xE9lica Maria Penteado-Dias"
+  - Mabel Alvarado Gutierrez
+  - "Ricardo Javier Ball\xF3n-Estacio"
+  - Alvaro Doria dos Santos
+  publisher: "Pap\xE9is Avulsos de Zoologia"
+  date: '2023-07-05'
+  link: https://doi.org/gs7tt7
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1098/rsos.221170
+  title: 'From species descriptions to diversity patterns: the validation of taxonomic
+    data as a keystone for ant diversity studies reproducibility and accuracy'
+  authors:
+  - Rodrigo M. Feitosa
+  - Thiago S. R. Silva
+  - Gabriela P. Camacho
+  - "M\xF4nica A. Ulyss\xE9a"
+  - Natalia Ladino
+  - Aline M. Oliveira
+  - "Em\xEDlia Z. de Albuquerque"
+  - Carla R. Ribas
+  - Fernando A. Schmidt
+  - Maria Santina de C. Morini
+  - "Rog\xE9rio R. da Silva"
+  - "Wesley D\xE1ttilo"
+  - "Ant\xF4nio C. M. de Queiroz"
+  - "Fabr\xEDcio B. Baccaro"
+  - Jean C. Santos
+  - Karine S. Carvalho
+  - Tathiana G. Sobrinho
+  - Yves P. Quinet
+  - Aline B. Moraes
+  - "Andr\xE9 B. Vargas"
+  - Helena Maura Torezan-Silingardi
+  - Jorge Luiz P. Souza
+  - Tatianne Marques
+  - Thiago Izzo
+  - Denise Lange
+  - Iracenir A. dos Santos
+  - Kleber Del-Claro
+  - Larissa Nahas
+  - Lucas Paolucci
+  - Stela A. Soares
+  - Ana Y. Harada
+  - Ananza M. Rabello
+  - Cinthia B. da Costa-Milanez
+  - Eduardo Diehl-Fleig
+  - Renata B. F. Campos
+  - Ricardo Solar
+  - Tiago Frizzo
+  - Wesley DaRocha
+  - Anselmo Nogueira
+  publisher: Royal Society Open Science
+  date: '2023-02-01'
+  link: https://doi.org/hcqmtf
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:WOS:000948800900140
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000948800900140
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/14772000.2022.2089268
+  title: 'Ants of Brazil: an overview based on 50 years of diversity studies'
+  authors:
+  - Rodrigo M. Feitosa
+  - Gabriela P. Camacho
+  - Thiago S. R. Silva
+  - "M\xF4nica A. Ulyss\xE9a"
+  - Natalia Ladino
+  - Aline M. Oliveira
+  - "Em\xEDlia Z. Albuquerque"
+  - Fernando A. Schmidt
+  - Carla R. Ribas
+  - Anselmo Nogueira
+  - "Fabr\xEDcio B. Baccaro"
+  - "Ant\xF4nio C. M. Queiroz"
+  - "Wesley D\xE1ttilo"
+  - "Rog\xE9rio R. Silva"
+  - Jean C. Santos
+  - Ananza M. Rabello
+  - Maria Santina De C. Morini
+  - Yves P. Quinet
+  - Kleber Del-Claro
+  - Ana Y. Harada
+  - Karine S. Carvalho
+  - Tathiana G. Sobrinho
+  - Aline B. Moraes
+  - "Andr\xE9 B. Vargas"
+  - Helena Maura Torezan-Silingardi
+  - Jorge Luiz P. Souza
+  - Tatianne Marques
+  - Thiago Izzo
+  - Denise Lange
+  - Iracenir A. Santos
+  - Larissa Nahas
+  - Lucas Paolucci
+  - Stela A. Soares
+  - Cinthia B. Costa-Milanez
+  - Eduardo Diehl-Fleig
+  - Renata B. F. Campos
+  - Ricardo Solar
+  - Tiago Frizzo
+  - Wesley Darocha
+  publisher: Systematics and Biodiversity
+  date: '2022-07-20'
+  link: https://doi.org/gvw593
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11646/zootaxa.5116.3.9
+  title: 'Bazboltonia nom. nov., a replacement name for the preoccupied Neotropical
+    ant genus Boltonia Camacho &amp;amp; Feitosa 2022 (Hymenoptera: Formicidae)'
+  authors:
+  - GABRIELA P. CAMACHO
+  - RODRIGO M. FEITOSA
+  publisher: Zootaxa
+  date: '2022-03-21'
+  link: https://doi.org/hbdw64
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s00040-022-00848-6
+  title: 'Ant diversity studies in Brazil: an overview of the myrmecological research
+    in a megadiverse country'
+  authors:
+  - F. A. Schmidt
+  - C. R. Ribas
+  - R. M. Feitosa
+  - F. B. Baccaro
+  - A. C. M. de Queiroz
+  - T. G. Sobrinho
+  - Y. Quinet
+  - K. S. Carvalho
+  - T. Izzo
+  - M. S. de Castro Morini
+  - A. Nogueira
+  - H. M. Torezan-Silingardi
+  - J. L. P. Souza
+  - "M. A. Ulyss\xE9a"
+  - A. B. Vargas
+  - "W. D\xE1ttilo"
+  - K. Del-Claro
+  - T. Marques
+  - A. B. Moraes
+  - L. Paolucci
+  - A. M. Rabello
+  - J. C. Santos
+  - R. Solar
+  - E. Z. de Albuquerque
+  - F. Esteves
+  - R. B. F. Campos
+  - D. Lange
+  - L. Nahas
+  - I. A. dos Santos
+  - R. R. Silva
+  - S. A. Soares
+  - G. P. Camacho
+  - C. B. da Costa-Milanez
+  - W. DaRocha
+  - E. Diehl-Fleig
+  - T. Frizzo
+  - A. Y. Harada
+  - F. Martello
+  publisher: Insectes Sociaux
+  date: '2022-02-01'
+  link: https://doi.org/hcqmtg
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1093/isd/ixab026
+  title: 'UCE Phylogenomics Resolves Major Relationships Among Ectaheteromorph Ants
+    (Hymenoptera: Formicidae: Ectatomminae, Heteroponerinae): A New Classification
+    For the Subfamilies and the Description of a New Genus'
+  authors:
+  - G P Camacho
+  - W Franco
+  - M G Branstetter
+  - M R Pie
+  - J T Longino
+  - T R Schultz
+  - R M Feitosa
+  publisher: Insect Systematics and Diversity
+  date: '2022-01-01'
+  link: https://doi.org/hbdxm3
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1002/ecy.3580
+  title: 'ATLANTIC ANTS: a data set of ants in Atlantic Forests of South America'
+  authors:
+  - "Rog\xE9rio R. Silva"
+  - Felipe Martello
+  - Rodrigo Machado Feitosa
+  - "Ot\xE1vio Guilherme M. Silva"
+  - "L\xEDvia Pires do Prado"
+  - "Carlos Roberto F. Brand\xE3o"
+  - "Em\xEDlia Zoppas de Albuquerque"
+  - Maria Santina C. Morini
+  - Jacques Hubert Charles Delabie
+  - Erison Carlos dos Santos Monteiro
+  - Agripino Emanuel Oliveira Alves
+  - Alexander L. Wild
+  - Alexander V. Christianini
+  - Alexandre Arnhold
+  - Alexandre Casadei Ferreira
+  - Aline Machado Oliveira
+  - Alvaro D. Santos
+  - "Alvaro Galb\xE1n"
+  - Amanda Aparecida de Oliveira
+  - Amanda Gomes Madureira Subtil
+  - Amanda Martins Dias
+  - "Ana Eug\xEAnia de Carvalho Campos"
+  - Ana Maria Waldschimidt
+  - "Andr\xE9 Victor Lucci Freitas"
+  - Andrea N. Avalos
+  - Andreas L. S. Meyer
+  - "Andr\xE9s F. S\xE1nchez\u2010Restrepo"
+  - Andrew V. Suarez
+  - Anselmo Santos Souza
+  - "Ant\xF4nio C. M. Queiroz"
+  - "Ant\xF4nio J. Mayh\xE9\u2010Nunes"
+  - Ariel da Cruz Reis
+  - "Benedito Cort\xEAs Lopes"
+  - "Benoit Gu\xE9nard"
+  - Bhrenno Maykon Trad
+  - Bianca Caitano
+  - Boris Yagound
+  - "Brenda Pereira\u2010Silva"
+  - Brian L. Fisher
+  - "Brisa Lunar Patr\xEDcio Tavares"
+  - Bruna Borges Moraes
+  - Bruno K. C. Filgueiras
+  - Carin Guarda
+  - Carla R. Ribas
+  - Carlos Eduardo Cereto
+  - "Carlos Eduardo Lustosa Esb\xE9rard"
+  - Carlos E. G. R. Schaefer
+  - Carolina I. Paris
+  - "Cec\xEDlia Bueno"
+  - Chaim Jose Lasmar
+  - "Cinthia Borges da Costa\u2010Milanez"
+  - Cladis Juliana Lutinski
+  - "Claudia M. Ortiz\u2010Sepulveda"
+  - Claudia Tiemi Wazema
+  - "Cl\xE9a S. F. Mariano"
+  - "Corina Anah\xED Barrera"
+  - Cristian Luan Klunk
+  - Daniel Oliveira Santana
+  - "Dar\xEDo Larrea"
+  - "D\xE9bora Cristina Rother"
+  - "D\xE9bora R. Souza\u2010Campana"
+  - "D\xE9bora Yumi Kayano"
+  - Diego Lemos Alves
+  - Diego Santana Assis
+  - Diego Anjos
+  - "Eder Cleyton Barbosa Fran\xE7a"
+  - Eduardo F. Santos
+  - Elisangela A. Silva
+  - "\xC9liton Vieira Santos"
+  - Elmo Borges Koch
+  - Emely Laiara Silva Siqueira
+  - "\xC9rica A. Almeida"
+  - Erica Santos Araujo
+  - Erick Villarreal
+  - Erin Becker
+  - "Ernesto de Oliveira Canedo\u2010J\xFAnior"
+  - "Esperidi\xE3o A. Santos\u2010Neto"
+  - Evan P. Economo
+  - "\xC9vellyn Silva Ara\xFAjo\u2010Oliveira"
+  - Fabiana Cuezzo
+  - "Fabr\xEDcio Severo Magalh\xE3es"
+  - Felipe Marcel Neves
+  - Felix Baumgarten Rosumek
+  - Fernanda Emanuela Dorneles
+  - Fernando B. Noll
+  - Filipe V. Arruda
+  - "Fl\xE1via A. Esteves"
+  - Flavio Nunes Ramos
+  - "Fl\xE1vio Roberto Mello Garcia"
+  - "Fl\xE1vio Siqueiro de Castro"
+  - Francisco Serna
+  - Frederico Rottgers Marcineiro
+  - Frederico S. Neves
+  - Gabriela Bandeira do Nascimento
+  - Gabriela de Figueiredo Jacintho
+  - Gabriela P. Camacho
+  - Genesio Tamara Ribeiro
+  - "Giselle Martins Louren\xE7o"
+  - "Gl\xF3ria Ramos Soares"
+  - Graciele A. Castilho
+  - Guilherme Pereira Alves
+  - Gustavo A. Zurita
+  - Gustavo Henrique Machado Santos
+  - Helena Carolina Onody
+  - "Helon Sim\xF5es Oliveira"
+  - Heraldo L. Vasconcelos
+  - "Hip\xF3lito Ferreira Paulino\u2010Neto"
+  - Humberto Brant
+  - Igor Rismo Coelho
+  - "In\xE1cio Jos\xE9 de Melo Teles e Gomes"
+  - Inara R. Leal
+  - Iracenir Andrade Dos Santos
+  - Isis Caroline Siqueira Santos
+  - Itanna O. Fernandes
+  - Ivan C. Nascimento
+  - "Jarbas Mar\xE7al Queiroz"
+  - John E. Lattke
+  - Jonathan Majer
+  - "Jos\xE9 Henrique Schoereder"
+  - "Jos\xE9 Oliveira Dantas"
+  - "Joudellys Andrade\u2010Silva"
+  - "Juan Martin D\xEDaz Guastavino"
+  - Juliana Silveira dos Santos
+  - Julieta Filloy
+  - "J\xFAlio C. M. Chaul"
+  - Junir Antonio Lutinski
+  - Karine S. Carvalho
+  - Kelli S. Ramos
+  - Kelly L. S. Sampaio
+  - "La\xEDs Aryane M. Ribeiro"
+  - "Leandro Sousa\u2010Souto"
+  - Lucas N. Paolucci
+  - Luciana Elizalde
+  - Luciana R. Podgaiski
+  - Lucila Chifflet
+  - "Ludimila Juliele Carvalho\u2010Leite"
+  - Luis A. Calcaterra
+  - "Luiz Eduardo Macedo\u2010Reis"
+  - Luiz Fernando Silva Magnago
+  - Marcelo Silva Madureira
+  - "M\xE1rcio Morais Silva"
+  - "M\xE1rcio R. Pie"
+  - "Marcio Uehara\u2010Prado"
+  - "Marco Aur\xE9lio Pizo"
+  - "Marcos Ant\xF4nio Pesquero"
+  - Marcos Augusto Ferraz Carneiro
+  - Maria Assunta Busato
+  - Maria Fernanda Brito de Almeida
+  - Maria Isabel Bellocq
+  - "Mari\xE1h Tibcherani"
+  - Mariana Sampaio Casimiro
+  - Mariane Ueda Vaz Ronque
+  - "Mar\xEDlia Maria Silva da Costa"
+  - Marina Acero Angotti
+  - Marina Vasconcelos de Oliveira
+  - Maurice Leponce
+  - "Mayara Mieko Gon\xE7alves Imata"
+  - Mila Ferraz de Oliveira Martins
+  - "M\xF4nica Antunes Ulyss\xE9a"
+  - Nadia Barbosa do Espirito Santo
+  - "Natalia Maritza Ladino L\xF3pez"
+  - Natalia Soares Balbino
+  - Nathalia Sampaio da Silva
+  - "Nath\xE1lia V. H. Safar"
+  - Paloma Leal de Andrade
+  - Paulo H. S. A. Camargo
+  - Paulo S. Oliveira
+  - Pavel Dodonov
+  - Pedro Luna
+  - Philip S. Ward
+  - Priscila E. Hanisch
+  - Priscila Santos Silva
+  - Raquel Divieso
+  - Raquel L. Carvalho
+  - Renata B. F. Campos
+  - Reuber Antoniazzi
+  - Ricardo Eduardo Vicente
+  - Ricardo Giovenardi
+  - Ricardo Ildefonso Campos
+  - Ricardo R. C. Solar
+  - Ricardo Toshio Fujihara
+  - Roberta de Jesus Santos
+  - Roberth Fagundes
+  - Roberto J. Guerrero
+  - Rodolfo S. Probst
+  - Rodrigo Silva de Jesus
+  - "Rog\xE9rio Silvestre"
+  - "Roman Alberto L\xF3pez\u2010Mu\xF1oz"
+  - "Ronara de Souza Ferreira\u2010Ch\xE2line"
+  - Rony Peterson Santos Almeida
+  - Samuel de Mello Pinto
+  - "Santiago Santoandr\xE9"
+  - "S\xE9rgio L. Althoff"
+  - "S\xE9rvio P. Ribeiro"
+  - Tainara Jory
+  - Tae Tanaami Fernandes
+  - Tamires de Oliveira Andrade
+  - Thalles Platiny Lavinscky Pereira
+  - "Thiago Gon\xE7alves\u2010Souza"
+  - Thiago Sanches Ranzani da Silva
+  - "Vict\xF3ria N. G. Silva"
+  - Vinicius Marques Lopez
+  - Vinicius Rodrigues Tonetti
+  - Vivian Ayumi Fujizawa Nacagava
+  - Viviane M. Oliveira
+  - "Wesley D\xE1ttilo"
+  - Wesley DaRocha
+  - Weslly Franco
+  - "William Dr\xF6se"
+  - William Antonialli
+  - Milton Cezar Ribeiro
+  publisher: Ecology
+  date: '2021-12-22'
+  link: https://doi.org/gzpq82
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/jbi.14107
+  title: "Spatial phylogenomics of acrobat ants in Madagascar\u2014Mountains function\
+    \ as cradles for recent diversity and endemism"
+  authors:
+  - Gabriela P. Camacho
+  - Ana Carolina Loss
+  - Brian L. Fisher
+  - Bonnie B. Blaimer
+  publisher: Journal of Biogeography
+  date: '2021-05-16'
+  link: https://doi.org/gj3qfm
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11646/zootaxa.4747.3.2
+  title: 'Additions to the taxonomy of Gnamptogenys Roger (Hymenoptera: Formicidae:
+    Ectatomminae) with an updated key to the New World species'
+  authors:
+  - GABRIELA P. CAMACHO
+  - WESLLY FRANCO
+  - RODRIGO M. FEITOSA
+  publisher: Zootaxa
+  date: '2020-03-04'
+  link: https://doi.org/hbdw62
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/zsc.12332
+  title: Exploring gene tree incongruence at the origin of ants and bees (Hymenoptera)
+  authors:
+  - Gabriela P. Camacho
+  - Marcio R. Pie
+  - Rodrigo M. Feitosa
+  - Marcos S. Barbeitos
+  publisher: Zoologica Scripta
+  date: '2018-12-18'
+  link: https://doi.org/gftdpt
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.4289/0013-8797.120.2.308
+  title: 'Revision of the Fire Ants of the Solenopsis saevissima Species-Group (Hymenoptera:
+    Formicidae)'
+  authors:
+  - James P. Pitts
+  - Gabriela P. Camacho
+  - Dietrich Gotzek
+  - Joseph V. Mchugh
+  - Kenneth G. Ross
+  publisher: Proceedings of the Entomological Society of Washington
+  date: '2018-05-17'
+  link: https://doi.org/hbf6tw
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/eea.12542
+  title: "Effects of land\u2010use changes on ecosystem services: decrease in ant\
+    \ predation in human\u2010dominated landscapes in central <scp>B</scp>razil"
+  authors:
+  - Renata Pacheco
+  - Gabriela P. Camacho
+  - Tiago L.M. Frizzo
+  - Heraldo L. Vasconcelos
+  publisher: Entomologia Experimentalis et Applicata
+  date: '2017-02-23'
+  link: https://doi.org/f9z976
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11829-017-9559-8
+  title: "Variation in the composition and activity of ants on defense of host plant\
+    \ Turnera subulata (Turneraceae): strong response to simulated herbivore attacks\
+    \ and to herbivore\u2019s baits"
+  authors:
+  - Nayara G. Cruz
+  - Paulo F. Cristaldo
+  - Leandro Bacci
+  - Camilla S. Almeida
+  - Gabriela P. Camacho
+  - Alisson S. Santana
+  - Efrem J. M. Ribeiro
+  - Alexandre P. Oliveira
+  - "Abra\xE3o A. Santos"
+  - "Ana P. A. Ara\xFAjo"
+  publisher: Arthropod-Plant Interactions
+  date: '2017-08-31'
+  link: https://doi.org/hcqmth
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:ZOOREC:ZOOR15301004097
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:ZOOREC:ZOOR15301004097
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.13102/SOCIOBIOLOGY.V62I2.281-295
+  title: Ants of the Panga Ecological Station, a Cerrado Reserve in Central Brazil
+  authors:
+  - "Gabriela Proc\xF3pio Camacho"
+  - Heraldo Luis Vasconcelos
+  publisher: Sociobiology
+  date: '2015-06-30'
+  link: https://doi.org/f7jwzq
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s11829-014-9338-8
+  title: "Ant\u2013plant interactions: the importance of extrafloral nectaries versus\
+    \ hemipteran honeydew on plant defense against herbivores"
+  authors:
+  - Ricardo I. Campos
+  - Gabriela P. Camacho
+  publisher: Arthropod-Plant Interactions
+  date: '2014-10-31'
+  link: https://doi.org/f6p4cm
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1016/j.ecolind.2014.06.036
+  title: Evaluating sampling sufficiency and the use of surrogates for assessing ant
+    diversity in a Neotropical biodiversity hotspot
+  authors:
+  - Heraldo L. Vasconcelos
+  - Tiago L.M. Frizzo
+  - Renata Pacheco
+  - Jonas B. Maravalhas
+  - Gabriela P. Camacho
+  - Karine S. Carvalho
+  - Elmo B.A. Koch
+  - "Jos\xE9 R. Pujol-Luz"
+  publisher: Ecological Indicators
+  date: '2014-11-01'
+  link: https://doi.org/f6kj5t
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1007/s10531-013-0463-y
+  title: The importance of remnants of natural vegetation for maintaining ant diversity
+    in Brazilian agricultural landscapes
+  authors:
+  - Renata Pacheco
+  - Heraldo L. Vasconcelos
+  - Sarah Groc
+  - Gabriela P. Camacho
+  - Tiago L. M. Frizzo
+  publisher: Biodiversity and Conservation
+  date: '2013-03-14'
+  link: https://doi.org/f4t7hh
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml

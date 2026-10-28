@@ -14,6 +14,14 @@ Pesquisadores, estudantes, técnicos e colaboradores do Laboratório de Hymenopt
 
 {% include team-sections.html %}
 
+{% include section.html %}
+
+## Fotos do grupo {#fotos-do-grupo}
+
+O laboratório ao longo dos anos.
+
+{% include group-photos.html %}
+
 {% include section.html background="images/background.jpg" dark=true %}
 
 Quer fazer iniciação científica, mestrado, doutorado ou pós-doutorado no laboratório? Escreva para [gpcamacho@usp.br](mailto:gpcamacho@usp.br) contando seus interesses.

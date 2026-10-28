@@ -1,0 +1,38 @@
+# Fotos do grupo na página Equipe — uma por ano, da mais recente para a mais antiga.
+# Envie a foto para images/grupo/ e ajuste a data e as legendas.
+# Para tirar um ano do site, apague as linhas dele.
+
+- year: 2026
+  image: images/grupo/2026.jpg
+  date: ""      # ex.: "12 de dezembro de 2026"
+  date_en: ""   # ex.: "12 December 2026"
+  caption: Equipe do Laboratório de Hymenoptera no MZUSP.
+  caption_en: The Hymenoptera Laboratory team at MZUSP.
+
+- year: 2025
+  image: images/grupo/2025.jpg
+  date: ""      # ex.: "12 de dezembro de 2025"
+  date_en: ""   # ex.: "12 December 2025"
+  caption: Equipe do Laboratório de Hymenoptera no MZUSP.
+  caption_en: The Hymenoptera Laboratory team at MZUSP.
+
+- year: 2024
+  image: images/grupo/2024.jpg
+  date: ""      # ex.: "12 de dezembro de 2024"
+  date_en: ""   # ex.: "12 December 2024"
+  caption: Equipe do Laboratório de Hymenoptera no MZUSP.
+  caption_en: The Hymenoptera Laboratory team at MZUSP.
+
+- year: 2023
+  image: images/grupo/2023.jpg
+  date: ""      # ex.: "12 de dezembro de 2023"
+  date_en: ""   # ex.: "12 December 2023"
+  caption: Equipe do Laboratório de Hymenoptera no MZUSP.
+  caption_en: The Hymenoptera Laboratory team at MZUSP.
+
+- year: 2022
+  image: images/grupo/2022.jpg
+  date: ""      # ex.: "12 de dezembro de 2022"
+  date_en: ""   # ex.: "12 December 2022"
+  caption: Equipe do Laboratório de Hymenoptera no MZUSP.
+  caption_en: The Hymenoptera Laboratory team at MZUSP.

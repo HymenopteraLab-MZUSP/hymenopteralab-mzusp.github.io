@@ -12,6 +12,7 @@ Tudo se edita direto no GitHub: abra o arquivo, clique no lápis (**Edit**), alt
 | Equipe | um arquivo por pessoa em `_members/`; ordem e nomes das categorias em `_data/team_sections.yaml` |
 | Financiamento | `funding/index.md` |
 | Notícias | um arquivo por notícia em `_posts/`; tabela "Na mídia" em `blog/index.md` e `en/news/index.md` |
+| Fotos do grupo (uma por ano) | `_data/group_photos.yaml`; fotos em `images/grupo/` |
 | Contato (com mapa) | `contact/index.md` |
 | Fotos e imagens | pasta `images/` |
 | Versão em inglês | pasta `en/` (uma página para cada página em português) |

@@ -1,30 +1,51 @@
 # map general type to default/fallback icon, text, etc.
 
-# team member roles
+# funções da equipe (campo "role" em _members/*.md)
 
 principal-investigator:
   icon: fa-solid fa-microscope
-  description: Principal Investigator
+  description: Pesquisadora responsável
+  description_en: Principal Investigator
+
+pesquisador:
+  icon: fa-solid fa-flask
+  description: Pesquisador(a)
+  description_en: Researcher
 
 postdoc:
   icon: fa-solid fa-glasses
-  description: Postdoctoral Researcher
+  description: Pós-doutorado
+  description_en: Postdoctoral Researcher
 
 phd:
   icon: fa-solid fa-graduation-cap
-  description: PhD Student
+  description: Doutorado
+  description_en: PhD Student
+
+mestrado:
+  icon: fa-solid fa-book-open
+  description: Mestrado
+  description_en: MSc Student
 
 undergrad:
   icon: fa-solid fa-user-graduate
-  description: Undergraduate Student
+  description: Iniciação científica
+  description_en: Undergraduate Researcher
 
-programmer:
-  icon: fa-solid fa-code
-  description: Programmer
+tecnico:
+  icon: fa-solid fa-screwdriver-wrench
+  description: Treinamento técnico
+  description_en: Technical Trainee
 
-mascot:
-  icon: fa-solid fa-dog
-  description: Mascot
+colaborador:
+  icon: fa-solid fa-handshake
+  description: Colaboração
+  description_en: Collaborator
+
+ex-membro:
+  icon: fa-solid fa-user-clock
+  description: Ex-membro
+  description_en: Former member
 
 # general
 
@@ -35,40 +56,40 @@ link:
 
 website:
   icon: fa-solid fa-globe
-  text: Website
-  tooltip: Website
+  text: Site
+  tooltip: Site
 
 external:
   icon: fa-solid fa-up-right-from-square
-  text: External Link
-  tooltip: External link
+  text: Link externo
+  tooltip: Link externo
 
 home-page:
   icon: fa-solid fa-house-user
-  text: Home Page
-  tooltip: Home page
+  text: Página pessoal
+  tooltip: Página pessoal
 
 email:
   icon: fa-solid fa-envelope
-  text: Email
-  tooltip: Email
+  text: E-mail
+  tooltip: E-mail
   link: mailto:$VALUE
 
 phone:
   icon: fa-solid fa-phone
-  text: Phone Number
-  tooltip: Phone number
+  text: Telefone
+  tooltip: Telefone
   link: tel:$VALUE
 
 address:
   icon: fa-solid fa-map-location-dot
-  text: Address
-  tooltip: Address
+  text: Endereço
+  tooltip: Endereço
 
 search:
   icon: fa-solid fa-magnifying-glass
-  text: Search
-  tooltip: Search
+  text: Buscar
+  tooltip: Buscar
 
 # social media
 
@@ -77,6 +98,12 @@ orcid:
   text: ORCID
   tooltip: ORCID
   link: https://orcid.org/$VALUE
+
+lattes:
+  icon: fa-solid fa-id-card
+  text: Lattes
+  tooltip: Currículo Lattes
+  link: http://lattes.cnpq.br/$VALUE
 
 google-scholar:
   icon: fa-brands fa-google
@@ -156,23 +183,23 @@ error:
 
 paper:
   icon: fa-solid fa-scroll
-  text: Paper
-  tooltip: Paper
+  text: Artigo
+  tooltip: Artigo
 
 book:
   icon: fa-solid fa-book
-  text: Book
-  tooltip: Book
+  text: Livro
+  tooltip: Livro
 
 article:
   icon: fa-solid fa-newspaper
-  text: Article
-  tooltip: Article
+  text: Artigo
+  tooltip: Artigo
 
 journal:
   icon: fa-regular fa-newspaper
-  text: Journal
-  tooltip: Journal
+  text: Periódico
+  tooltip: Periódico
 
 preprint:
   icon: fa-regular fa-eye
@@ -181,8 +208,8 @@ preprint:
 
 unpublished:
   icon: fa-regular fa-eye
-  text: Unpublished
-  tooltip: Unpublished
+  text: Não publicado
+  tooltip: Não publicado
 
 manubot:
   icon: manubot.svg
@@ -193,30 +220,30 @@ manubot:
 
 docs:
   icon: fa-solid fa-book
-  text: Documentation
-  tooltip: Documentation
+  text: Documentação
+  tooltip: Documentação
 
 source:
   icon: fa-solid fa-code
-  text: Source
-  tooltip: Source code
+  text: Código
+  tooltip: Código-fonte
 
 server:
   icon: fa-solid fa-server
-  text: Server
-  tooltip: Server
+  text: Servidor
+  tooltip: Servidor
 
 app:
   icon: fa-solid fa-hand-pointer
-  text: App
-  tooltip: App
+  text: Aplicativo
+  tooltip: Aplicativo
 
 data:
   icon: fa-solid fa-database
-  text: Data
-  tooltip: Data
+  text: Dados
+  tooltip: Dados
 
 package:
   icon: fa-solid fa-box
-  text: Package
-  tooltip: Package
+  text: Pacote
+  tooltip: Pacote

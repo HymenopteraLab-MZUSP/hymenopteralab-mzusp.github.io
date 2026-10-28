@@ -30,7 +30,10 @@
         a.classList.add("tag");
         a.innerHTML = tag;
         a.href = `${link}?search="tag: ${tag}"`;
-        a.dataset.tooltip = `Show items with the tag "${tag}"`;
+        a.dataset.tooltip =
+          document.documentElement.lang === "en"
+            ? `Show items tagged "${tag}"`
+            : `Mostrar itens com a etiqueta "${tag}"`;
         row.append(a);
       }
 

@@ -1,3 +1,4 @@
+{% assign lang = page.lang | default: site.lang %}{% assign t = site.data.strings[lang] %}
 {% assign tags = include.tags
   | object_items
   | join: ","
@@ -21,7 +22,7 @@
       <a
         href="{{ link | relative_url }}?search=&quot;tag: {{ tag }}&quot;"
         class="tag"
-        data-tooltip="Show items with the tag &quot;{{ tag }}&quot;"
+        data-tooltip="{{ t.tag_tooltip }} &quot;{{ tag }}&quot;"
       >
         {{ tag }}
       </a>

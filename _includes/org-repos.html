@@ -1,0 +1,52 @@
+{% comment %}
+  Lista automática dos repositórios públicos da organização no GitHub.
+  Parâmetros: org (nome da organização) e exclude (repositórios a ocultar, separados por vírgula).
+  O script que preenche a lista está em _scripts/org-repos.js.
+{% endcomment %}
+{% assign lang = page.lang | default: site.lang %}{% assign t = site.data.strings[lang] %}
+
+<div class="org-repos-controls">
+  <label for="org-repos-filter">{{ t.repos_filter }}</label>
+  <select id="org-repos-filter" class="org-repos-filter">
+    <option value="">{{ t.repos_all }}</option>
+  </select>
+  <span class="org-repos-count"></span>
+</div>
+
+<div
+  class="org-repos"
+  data-org="{{ include.org }}"
+  data-exclude="{{ include.exclude }}"
+>
+  <p class="org-repos-status">{{ t.repos_loading }}</p>
+</div>
+
+<style>
+  .org-repos-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  .org-repos-filter {
+    padding: 5px 10px;
+    border-radius: var(--rounded, 5px);
+    font: inherit;
+  }
+  .org-repos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px 0;
+  }
+  .org-repos .card-meta {
+    font-size: 0.9em;
+    opacity: 0.75;
+  }
+  .org-repos-status {
+    text-align: center;
+  }
+</style>

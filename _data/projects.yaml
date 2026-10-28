@@ -1,47 +1,22 @@
-- title: Cool Dataset
-  subtitle: a subtitle
+# Produtos em destaque na página Produtos (group: featured).
+# Os demais repositórios públicos da organização aparecem sozinhos, na lista automática.
+
+- title: POPs da Coleção de Hymenoptera
+  subtitle: Procedimentos Operacionais Padrão
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://opengraph.githubassets.com/1/HymenopteraLab-MZUSP/pops-hymenoptera-mzusp
+  link: https://github.com/HymenopteraLab-MZUSP/pops-hymenoptera-mzusp
+  description: Vinte procedimentos para recebimento, empréstimo, tombamento, material-tipo, amostragem destrutiva, conservação e segurança da Coleção de Hymenoptera do MZUSP.
+  repo: HymenopteraLab-MZUSP/pops-hymenoptera-mzusp
   tags:
-    - resource
+    - protocolo
 
-- title: Cool Package
-  subtitle: a subtitle
+- title: Modelo de repositório
+  subtitle: Para novos projetos do laboratório
   group: featured
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
+  image: https://opengraph.githubassets.com/1/HymenopteraLab-MZUSP/template-hymenopteralab
+  link: https://github.com/HymenopteraLab-MZUSP/template-hymenopteralab
+  description: Estrutura padrão, licenças, arquivo de citação e seção de financiamento para todo repositório novo da organização.
+  repo: HymenopteraLab-MZUSP/template-hymenopteralab
   tags:
-    - resource
-
-- title: Cool Tutorial
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - resource
-    - publication
-
-- title: Cool Web App
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
-
-- title: Cool Web Server
-  subtitle: a subtitle
-  image: images/photo.jpg
-  link: https://github.com/
-  description: Lorem ipsum _dolor sit amet_, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  repo: greenelab/lab-website-template
-  tags:
-    - software
+    - modelo

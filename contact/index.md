@@ -1,77 +1,34 @@
 ---
-title: Contact
+translation: en/contact/
+title: Contato
 nav:
-  order: 5
-  tooltip: Email, address, and location
+  order: 6
+  tooltip: E-mail e endereço
 ---
 
-# {% include icon.html icon="fa-regular fa-envelope" %}Contact
+# {% include icon.html icon="fa-regular fa-envelope" %}Contato
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+Para visitas à Coleção de Hymenoptera, empréstimos, envio de material ou interesse em fazer parte do laboratório, escreva para:
 
 {%
   include button.html
   type="email"
-  text="jane@smith.com"
-  link="jane@smith.com"
-%}
-{%
-  include button.html
-  type="phone"
-  text="(555) 867-5309"
-  link="+1-555-867-5309"
+  text="gpcamacho@usp.br"
+  link="gpcamacho@usp.br"
 %}
 {%
   include button.html
   type="address"
-  tooltip="Our location on Google Maps for easy navigation"
-  link="https://www.google.com/maps"
+  text="Museu de Zoologia da USP"
+  tooltip="Ver no Google Maps"
+  link="https://www.google.com/maps/search/?api=1&query=Museu+de+Zoologia+da+USP"
 %}
 
 {% include section.html %}
 
-{% capture col1 %}
+**Laboratório de Hymenoptera**
+Museu de Zoologia da Universidade de São Paulo (MZUSP)
+Avenida Nazaré, 481 — Ipiranga
+04263-000 São Paulo, SP, Brasil
 
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% capture col2 %}
-
-{%
-  include figure.html
-  image="images/photo.jpg"
-  caption="Lorem ipsum"
-%}
-
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 %}
-
-{% include section.html dark=true %}
-
-{% capture col1 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col2 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% capture col3 %}
-Lorem ipsum dolor sit amet  
-consectetur adipiscing elit  
-sed do eiusmod tempor
-{% endcapture %}
-
-{% include cols.html col1=col1 col2=col2 col3=col3 %}
+Envios de material para a coleção seguem o [POP-HYM-01](https://github.com/HymenopteraLab-MZUSP/pops-hymenoptera-mzusp). Combine por e-mail antes de enviar qualquer material.

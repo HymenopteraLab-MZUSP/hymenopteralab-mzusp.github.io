@@ -38,7 +38,12 @@
 
     {% if member.description or type %}
       <span class="portrait-description">
-        {{ member.description | default: type.description }}
+        {% assign portrait_lang = page.lang | default: site.lang %}
+        {% if portrait_lang == "en" %}
+          {{ member.description_en | default: type.description_en | default: member.description | default: type.description }}
+        {% else %}
+          {{ member.description | default: type.description }}
+        {% endif %}
       </span>
     {% endif %}
 

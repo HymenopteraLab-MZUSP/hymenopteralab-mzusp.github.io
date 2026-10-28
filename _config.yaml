@@ -1,19 +1,17 @@
 # site properties and page defaults
-title: HymenopteraLab-MZUSP
-subtitle: 
-description: An engaging 1-3 sentence description of your lab.
+title: HymenopteraLab
+subtitle: Laboratório de Hymenoptera · MZUSP
+description: Laboratório de Hymenoptera do Museu de Zoologia da Universidade de São Paulo — sistemática, filogenômica e biogeografia de formigas e outros Hymenoptera, e curadoria da Coleção de Hymenoptera do MZUSP.
 header: images/background.jpg
 footer: images/background.jpg
 proofer: false
+lang: pt-BR
 
-# site social media and other links
+# site social media and other links (shown in the footer)
 links:
-  email: contact@HymenopteraLab-MZUSP.com
-  orcid: 0000-0001-8713-9213
-  google-scholar: ETJoidYAAAAJ
+  email: gpcamacho@usp.br
   github: HymenopteraLab-MZUSP
-  twitter: HymenopteraLab-MZUSP
-  youtube: HymenopteraLab-MZUSP
+  orcid: 0000-0002-8792-7719
 
 ### jekyll settings
 
@@ -71,6 +69,16 @@ exclude:
   - README.md
   - LICENSE.md
   - CITATION.cff
+  - COMO-EDITAR.md
+  - CHANGELOG.md
+  - testbed.md
+  # exemplos do modelo original (podem ser apagados do repositório)
+  - _members/jane-smith.md
+  - _members/john-doe.md
+  - _members/sarah-johnson.md
+  - _posts/2019-01-07-example-post-1.md
+  - _posts/2021-09-30-example-post-2.md
+  - _posts/2023-02-23-example-post-3.md
 
 # configure jekyll spaceship
 jekyll-spaceship:

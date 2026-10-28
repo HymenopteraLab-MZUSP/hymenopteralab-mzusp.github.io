@@ -136,8 +136,11 @@
 
       // info template
       let info = "";
-      info += `Showing ${x.toLocaleString()} of ${n.toLocaleString()} results<br>`;
-      info += "<a href='./'>Clear search</a>";
+      const en = document.documentElement.lang === "en";
+      info += en
+        ? `Showing ${x.toLocaleString("en")} of ${n.toLocaleString("en")} results<br>`
+        : `Mostrando ${x.toLocaleString("pt-BR")} de ${n.toLocaleString("pt-BR")} resultados<br>`;
+      info += en ? "<a href='./'>Clear search</a>" : "<a href='./'>Limpar busca</a>";
 
       // set info HTML string
       boxes.forEach((el) => (el.innerHTML = info));

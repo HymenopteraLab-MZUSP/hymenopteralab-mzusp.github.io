@@ -1,27 +1,26 @@
 ---
-title: Projects
+translation: en/projects/
+title: Produtos
 nav:
   order: 2
-  tooltip: Software, datasets, and more
+  tooltip: Protocolos, códigos, scripts e dados
 ---
 
-# {% include icon.html icon="fa-solid fa-wrench" %}Projects
+# {% include icon.html icon="fa-solid fa-wrench" %}Produtos
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-{% include tags.html tags="publication, resource, website" %}
-
-{% include search-info.html %}
+Tudo o que o laboratório produz fica na organização [HymenopteraLab-MZUSP](https://github.com/HymenopteraLab-MZUSP) no GitHub, com autoria, versão e financiamento registrados.
+Cada repositório traz etiquetas de tipo (`protocolo`, `pipeline`, `analise`, `dados`, `ensino`), de responsável e de financiamento (por exemplo, `fapesp-2023-12809-0`).
 
 {% include section.html %}
 
-## Featured
+## Em destaque
 
 {% include list.html component="card" data="projects" filter="group == 'featured'" %}
 
 {% include section.html %}
 
-## More
+## Todos os repositórios
 
-{% include list.html component="card" data="projects" filter="!group" style="small" %}
+Lista atualizada automaticamente a partir do GitHub. Clique em uma etiqueta para filtrar.
+
+{% include org-repos.html org="HymenopteraLab-MZUSP" exclude=".github,hymenopteralab-mzusp.github.io" %}

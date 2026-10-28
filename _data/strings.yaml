@@ -1,0 +1,52 @@
+# Textos da interface em cada idioma (pt-BR e en).
+# A página define o idioma com "lang: en" no cabeçalho; sem isso, vale pt-BR.
+
+pt-BR:
+  subtitle: Laboratório de Hymenoptera · MZUSP
+  home: Início
+  home_url: /
+  toggle_nav: mostrar/ocultar menu
+  switch_label: EN
+  switch_tooltip: English version
+  search_placeholder: Buscar nesta página
+  clear_search: Limpar busca
+  site_search: Buscar no site (Google)
+  site_search_label: buscar no site
+  tag_tooltip: Mostrar itens com a etiqueta
+  built_with: Feito com
+  dark_mode: Modo escuro
+  dark_mode_label: alternar modo escuro
+  author: Autoria
+  published: Publicado em
+  updated: Atualizado em
+  member_papers_before: "Ver publicações de "
+  member_papers_after: " na página Pesquisa"
+  research_url: research/
+  repos_filter: "Filtrar por etiqueta:"
+  repos_all: Todas
+  repos_loading: Carregando repositórios…
+
+en:
+  subtitle: Hymenoptera Laboratory · MZUSP
+  home: Home
+  home_url: /en/
+  toggle_nav: show/hide menu
+  switch_label: PT
+  switch_tooltip: Versão em português
+  search_placeholder: Search this page
+  clear_search: Clear search
+  site_search: Search the site (Google)
+  site_search_label: search site
+  tag_tooltip: Show items tagged
+  built_with: Built with
+  dark_mode: Dark mode
+  dark_mode_label: toggle dark mode
+  author: Author
+  published: Published on
+  updated: Updated on
+  member_papers_before: "See publications by "
+  member_papers_after: " on the Research page"
+  research_url: en/research/
+  repos_filter: "Filter by tag:"
+  repos_all: All
+  repos_loading: Loading repositories…

@@ -1,6 +1,7 @@
+{% assign lang = page.lang | default: site.lang %}{% assign t = site.data.strings[lang] %}
 <form onsubmit="onSiteSearchSubmit(event)">
-  <input type="text" name="query" placeholder="Search site with Google" />
-  <button type="submit" class="button" aria-label="search site">
+  <input type="text" name="query" placeholder="{{ t.site_search }}" />
+  <button type="submit" class="button" aria-label="{{ t.site_search_label }}">
     {% include icon.html icon="fa-solid fa-magnifying-glass" %}
   </button>
 </form>

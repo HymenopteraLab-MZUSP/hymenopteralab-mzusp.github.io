@@ -1,10 +1,11 @@
+![on-push](../../actions/workflows/on-push.yaml/badge.svg)
 
-  ![on-push](../../actions/workflows/on-push.yaml/badge.svg)
-  ![on-pull-request](../../actions/workflows/on-pull-request.yaml/badge.svg)
-  ![on-schedule](../../actions/workflows/on-schedule.yaml/badge.svg)
+# Site do Laboratório de Hymenoptera — MZUSP
 
-  # HymenopteraLab-MZUSP's Website
+Acesse: **[hymenopteralab-mzusp.github.io](https://hymenopteralab-mzusp.github.io)**
 
-  Visit **[website URL](#)** 🚀
+Este repositório gera o site do laboratório. Cada alteração enviada para o branch `main` reconstrói o site automaticamente em poucos minutos.
 
-  _Built with [Lab Website Template](https://greene-lab.gitbook.io/lab-website-template-docs)_
+Para atualizar equipe, publicações, produtos, financiamento e notícias, veja **[COMO-EDITAR.md](COMO-EDITAR.md)**.
+
+_Feito com o [Lab Website Template](https://github.com/greenelab/lab-website-template), da Greene Lab._

@@ -55,6 +55,8 @@ Quando alguém sair do laboratório, troque o `role` para a categoria de egresso
 - **Automático pelo ORCID:** em `_data/orcid.yaml`, acrescente uma linha `- orcid: 0000-0000-0000-0000` para cada pessoa (o ORCID da Gabi já está lá). A lista se atualiza toda semana e a cada alteração no site.
 - **Por DOI:** em `_data/sources.yaml`, siga o exemplo no próprio arquivo. Use também para acrescentar imagem, etiquetas ou links de dados e código a uma publicação que veio do ORCID.
 - Nunca edite `_data/citations.yaml`. Ele é gerado automaticamente.
+- **Itálico e negrito numa publicação:** em `_data/sources.yaml`, repita o `id` da publicação (o `doi:...` que aparece embaixo dela na página Produtos) e escreva o título com `<i>…</i>`, entre aspas: `title: "<i>Vulcanidris cratensis</i>, a new..."`.
+- **Nomes do laboratório em negrito:** automático. Os nomes de quem tem arquivo em `_members/` (membros, coorientados e egressos) aparecem em negrito nas listas de autores, inclusive em formas abreviadas como "G. P. Camacho". Se a pessoa assina de outro jeito, acrescente a forma em `aliases` no arquivo dela. Para não destacar alguém, use `highlight: false`.
 
 ## Produtos
 

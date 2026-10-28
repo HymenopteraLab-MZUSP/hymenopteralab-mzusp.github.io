@@ -51,6 +51,7 @@
           citation.authors
           | join: ","
           | split: ","
+          | highlight_members
           | array_carve: 5
           | join: ", "
           | markdownify

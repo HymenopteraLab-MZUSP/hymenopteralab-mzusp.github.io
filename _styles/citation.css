@@ -47,6 +47,7 @@
 }
 
 .citation-title {
+  color: var(--strong);
   font-weight: var(--semi-bold);
 }
 

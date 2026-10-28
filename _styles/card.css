@@ -38,6 +38,7 @@
 }
 
 .card-title {
+  color: var(--strong);
   font-family: var(--heading);
   font-weight: var(--semi-bold);
 }

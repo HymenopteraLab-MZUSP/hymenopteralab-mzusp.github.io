@@ -333,15 +333,6 @@
   orcid: 0000-0002-8792-7719
   plugin: orcid.py
   file: orcid.yaml
-- id: wosuid:WOS:000948800900140
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:WOS:000948800900140
-  orcid: 0000-0002-8792-7719
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.1080/14772000.2022.2089268
   title: 'Ants of Brazil: an overview based on 50 years of diversity studies'
   authors:
@@ -778,15 +769,6 @@
   orcid: 0000-0002-8792-7719
   plugin: sources.py
   file: sources.yaml
-- id: wosuid:ZOOREC:ZOOR15301004097
-  title: Web of Science
-  authors: []
-  publisher: ''
-  date: ''
-  link: https://www.webofscience.com/wos/woscc/full-record/WOS:ZOOREC:ZOOR15301004097
-  orcid: 0000-0002-8792-7719
-  plugin: orcid.py
-  file: orcid.yaml
 - id: doi:10.13102/SOCIOBIOLOGY.V62I2.281-295
   title: Ants of the Panga Ecological Station, a Cerrado Reserve in Central Brazil
   authors:

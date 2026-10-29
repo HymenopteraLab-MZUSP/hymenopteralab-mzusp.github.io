@@ -100,6 +100,25 @@ nav > a:hover {
   color: var(--primary);
 }
 
+nav > a.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 6px;
+  padding: 4px 12px;
+  border: 1px solid #f9cb6b;
+  border-radius: 999px;
+  background: rgba(249, 203, 107, 0.1490196078);
+  color: #f9cb6b;
+  font-weight: var(--bold);
+  text-transform: none;
+}
+
+nav > a.lang-switch:hover {
+  background: #f9cb6b;
+  color: #1d1a15;
+}
+
 @media (max-width: 700px) {
   header:not([data-big]) {
     justify-content: flex-end;

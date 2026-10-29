@@ -825,3 +825,150 @@
   orcid: 0000-0002-8792-7719
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.11606/1807-0205/2018.58.17
+  title: Two new records of Gynandromorphs in Xylocopa (Hymenoptera, Apidae s.l.)
+  authors:
+  - Rony Peterson Santos Almeida
+  - Luis Anderson Ribeiro Leite
+  - Kelli Dos Santos Ramos
+  publisher: "Pap\xE9is Avulsos de Zoologia"
+  date: '2018-03-06'
+  link: https://doi.org/g7sngp
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11646/zootaxa.4378.2.8
+  title: 'Taxonomy of the bee species Anthrenoides nigrinasis (Vachal, 1909) n. comb.:
+    redescription of the type, description of the female, and new distribution records
+    (Hymenoptera: Apoidea)'
+  authors:
+  - KELLI S. RAMOS
+  publisher: Zootaxa
+  date: '2018-02-07'
+  link: https://doi.org/hcqqtj
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- title: "Checklist of the genera of Hymenoptera (Insecta) from Esp\xEDrito Santo\
+    \ state, Brazil"
+  publisher: "Boletim do Museu de Biologia Mello Leit\xE3o"
+  date: '2018-03-28'
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1590/0031-1049.2015.55.24
+  title: "Type specimens of bees (Hymenoptera, Apidae) deposited in the Museu de Zoologia\
+    \ da Universidade de S\xE3o Paulo, Brazil"
+  authors:
+  - KELLI S. RAMOS
+  - RICARDO KAWADA
+  - "CARLOS ROBERTO F. BRAND\xC3O"
+  publisher: "Pap\xE9is Avulsos de Zoologia (S\xE3o Paulo)"
+  date: '2015-01-01'
+  link: https://doi.org/hcqqtk
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1206/3800.1
+  title: '<i>Psaenythisca,</i>a New Genus of Bees from South America (Apoidea: Andrenidae:
+    Protandrenini) with a Description of the Nesting Biology and Immature Stages of
+    One Species'
+  authors:
+  - Kelli S. Ramos
+  - Jerome G. Rozen
+  publisher: American Museum Novitates
+  date: '2014-04-21'
+  link: https://doi.org/gbf346
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1590/S1984-46702014000500011
+  title: 'Taxonomic revision of Parasarus (Hymenoptera: Apidae s.l.: Protandrenini),
+    a South American genus of bees'
+  authors:
+  - Kelli dos Santos Ramos
+  publisher: Zoologia (Curitiba)
+  date: '2014-10-01'
+  link: https://doi.org/f6pn4z
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11646/zootaxa.3847.4.4
+  title: Three new bee species of Rhophitulus Ducke (Hymenoptera, Apidae, Protandrenini)
+    from Argentina and Brazil
+  authors:
+  - KELLI S. RAMOS
+  publisher: Zootaxa
+  date: '2014-08-11'
+  link: https://doi.org/hcqqtm
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.11646/zootaxa.3609.2.10
+  title: 'First record of intersexual phenotype in Calliopsini bees (Hymenoptera,
+    Apidae, Andreninae): an unusual specimen of Acamptopoeum submetallicum (Spinola)'
+  authors:
+  - KELLI S. RAMOS
+  - LUISA RUZ
+  publisher: Zootaxa
+  date: '2013-01-29'
+  link: https://doi.org/hcqqtn
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1080/00222933.2013.791887
+  title: "The bee genus<i>Arhysosage</i>Br\xE8thes (Apidae: Andreninae: Calliopsini):\
+    \ new species, taxonomic notes and new distribution records from Brazil"
+  authors:
+  - Kelli S. Ramos
+  publisher: Journal of Natural History
+  date: '2013-11-01'
+  link: https://doi.org/hcqqtp
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1111/j.1365-3113.2009.00518.x
+  title: "Taxonomic revision and phylogenetic relationships of the bee genus\n   \
+    \                 <i>Parapsaenythia</i>\n                    Friese (Hymenoptera,\
+    \ Apidae, Protandrenini), with biogeographic inferences for the South American\
+    \ Chacoan Subregion"
+  authors:
+  - KELLI S. RAMOS
+  - GABRIEL A. R. MELO
+  publisher: Systematic Entomology
+  date: '2010-06-07'
+  link: https://doi.org/fmmrvv
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- title: A new species of Protandrena Cockerell from Brazil (Hymenoptera, Apidae,
+    Andreninae)
+  publisher: Zootaxa
+  date: '2022-05-25'
+  link: http://www.scopus.com/inward/record.url?eid=2-s2.0-33750115039&partnerID=MN8TOARS
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: wosuid:ZOOREC:ZOOR14012071311
+  title: Web of Science
+  authors: []
+  publisher: ''
+  date: ''
+  link: https://www.webofscience.com/wos/woscc/full-record/WOS:ZOOREC:ZOOR14012071311
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml
+- id: doi:10.1590/S0085-56262004000200002
+  title: Tegumentar glands associated to foveae in the second metasomal tergum of
+    Panurgillus Moure (Apoidea, Andrenidae, Panurginae)
+  authors:
+  - Kelli dos Santos Ramos
+  - "Camila Gon\xE7alves dos Santos"
+  - Clemens Schlindwein
+  - Betina Blochtein
+  publisher: Revista Brasileira de Entomologia
+  date: '2004-06-01'
+  link: https://doi.org/c7sc55
+  orcid: 0000-0003-1453-5885
+  plugin: orcid.py
+  file: orcid.yaml

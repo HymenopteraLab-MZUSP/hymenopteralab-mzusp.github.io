@@ -4,7 +4,7 @@ translation: en/
 
 # Laboratório de Hymenoptera
 
-O Laboratório de Hymenoptera do [Museu de Zoologia da Universidade de São Paulo (MZUSP)](https://mz.usp.br/) estuda a diversidade, a evolução e a distribuição de formigas, vespas e abelhas, e cuida da Coleção de Hymenoptera do museu.
+O Laboratório de Hymenoptera do [Museu de Zoologia da Universidade de São Paulo (MZUSP)](https://mz.usp.br/pt/laboratorios/hymenoptera/) estuda a diversidade, a evolução e a distribuição de formigas, vespas e abelhas, e cuida da Coleção de Hymenoptera do museu.
 Aqui reunimos nossas linhas de pesquisa, equipe, publicações e os protocolos, códigos e dados que produzimos.
 
 {%
@@ -13,12 +13,6 @@ Aqui reunimos nossas linhas de pesquisa, equipe, publicações e os protocolos, 
   text="Nossos repositórios"
   link="HymenopteraLab-MZUSP"
 %}
-{%
-  include button.html
-  type="email"
-  text="Contato"
-  link="gpcamacho@usp.br"
-%}
 
 {% include section.html %}
 
@@ -26,7 +20,7 @@ Aqui reunimos nossas linhas de pesquisa, equipe, publicações e os protocolos, 
 
 {% capture text %}
 
-Sistemática, filogenômica e biogeografia de formigas da Mata Atlântica e de outros Hymenoptera, com dados genômicos de exemplares recém-coletados e de museu.
+Sistemática, filogenômica e biogeografia de formigas de Hymenoptera, com dados genômicos de exemplares recém-coletados e de museu.
 
 {%
   include button.html

@@ -9,6 +9,7 @@ Tudo se edita direto no GitHub: abra o arquivo, clique no lápis (**Edit**), alt
 | Linhas de pesquisa (caixas com texto e imagem) | `research/index.md`; imagens em `images/pesquisa/` |
 | Publicações | `_data/orcid.yaml` (automático) ou `_data/sources.yaml` (por DOI) |
 | Produtos em destaque | `_data/projects.yaml` |
+| Coleção (painel do Power BI, links do GBIF/SiBBr/speciesLink, catálogos de tipos) | `_data/colecao.yaml`; textos em `colecao/index.md` e `en/collection/index.md` |
 | Equipe | um arquivo por pessoa em `_members/`; ordem e nomes das categorias em `_data/team_sections.yaml` |
 | Financiamento | `funding/index.md` |
 | Notícias | um arquivo por notícia em `_posts/`; tabela "Na mídia" em `blog/index.md` e `en/news/index.md` |

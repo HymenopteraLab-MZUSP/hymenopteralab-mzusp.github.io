@@ -1,0 +1,32 @@
+# Dados da página Coleção / Collection.
+
+# Painel do Power BI (link de "Publicar na Web")
+painel: https://app.powerbi.com/view?r=eyJrIjoiMDlhZmI4ZTEtMTU1OC00ODI3LWE3MTctMWE3Y2NmNjNjNzkxIiwidCI6IjdlOTNlMjg2LWIyOWEtNDQ1NC1hNDFhLWU4NDE5ZWM5ZGViNSJ9
+
+# Onde baixar os registros. Preencha "link" quando o conjunto de dados
+# estiver publicado; botões sem link não aparecem no site.
+dados:
+  - nome: GBIF
+    nome_en: GBIF
+    icon: fa-solid fa-earth-americas
+    link: ""
+  - nome: SiBBr
+    nome_en: SiBBr
+    icon: fa-solid fa-leaf
+    link: ""
+  - nome: speciesLink
+    nome_en: speciesLink
+    icon: fa-solid fa-database
+    link: ""
+
+# Catálogos de material-tipo da coleção
+catalogos:
+  - titulo: "Type specimens of bees (Hymenoptera, Apidae) deposited in the Museu de Zoologia da Universidade de São Paulo, Brazil"
+    ref: "Ramos, Kawada & Brandão. Papéis Avulsos de Zoologia 55(24), 2015"
+    link: https://revistas.usp.br/paz/article/view/106386
+  - titulo: "Type specimens of Hymenoptera deposited in the Museu de Zoologia da Universidade de São Paulo, Brazil (excluding Aculeata)"
+    ref: "Papéis Avulsos de Zoologia 54(27), 2014"
+    link: https://scielo.br/j/paz/a/TxqF6bkpF4qDHmJbN6x44VF/?lang=en
+  - titulo: "Crabronidae and Sphecidae (Hymenoptera: Apoidea) type specimens deposited in the Museu de Zoologia da Universidade de São Paulo, Brazil"
+    ref: "Papéis Avulsos de Zoologia 59, 2019"
+    link: https://www.gbif.org/dataset/3d3253e0-dfb5-462a-a27a-32809ade47fd

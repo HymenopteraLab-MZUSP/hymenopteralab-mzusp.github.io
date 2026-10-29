@@ -112,6 +112,25 @@ nav > a:hover {
   color: var(--primary);
 }
 
+nav > a.lang-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 6px;
+  padding: 4px 12px;
+  border: 1px solid #f9cb6b;
+  border-radius: 999px;
+  background: #f9cb6b26;
+  color: #f9cb6b;
+  font-weight: var(--bold);
+  text-transform: none;
+}
+
+nav > a.lang-switch:hover {
+  background: #f9cb6b;
+  color: #1d1a15;
+}
+
 header:not([data-big]) {
   @media (max-width: $collapse) {
     justify-content: flex-end;

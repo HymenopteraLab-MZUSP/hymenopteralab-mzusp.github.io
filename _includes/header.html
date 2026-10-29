@@ -62,10 +62,11 @@
     {% if translation %}
       <a
         href="{{ translation | relative_url | uri_escape }}"
+        class="lang-switch"
         data-tooltip="{{ t.switch_tooltip }}"
         lang="{% if current_lang == 'en' %}pt-BR{% else %}en{% endif %}"
       >
-        {{ t.switch_label }}
+        <i class="fa-solid fa-globe" aria-hidden="true"></i> {{ t.switch_label }}
       </a>
     {% endif %}
   </nav>

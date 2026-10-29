@@ -6,7 +6,7 @@ pt-BR:
   home: Início
   home_url: /
   toggle_nav: mostrar/ocultar menu
-  switch_label: EN
+  switch_label: English
   switch_tooltip: English version
   search_placeholder: Buscar nesta página
   clear_search: Limpar busca
@@ -31,7 +31,7 @@ en:
   home: Home
   home_url: /en/
   toggle_nav: show/hide menu
-  switch_label: PT
+  switch_label: Português
   switch_tooltip: Versão em português
   search_placeholder: Search this page
   clear_search: Clear search

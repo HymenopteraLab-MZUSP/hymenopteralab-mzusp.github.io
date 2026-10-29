@@ -1,0 +1,5 @@
+<ul class="catalogos">
+{%- for c in site.data.colecao.catalogos %}
+<li><a href="{{ c.link }}">{{ c.titulo }}</a><br><small>{{ c.ref }}</small></li>
+{%- endfor %}
+</ul>

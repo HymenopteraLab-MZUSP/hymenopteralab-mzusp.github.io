@@ -1,0 +1,12 @@
+{%- assign cl = page.lang | default: site.lang -%}
+{%- assign com_link = site.data.colecao.dados | where_exp: "d", "d.link != ''" -%}
+{%- if com_link.size > 0 -%}
+<div class="dados-botoes">
+{%- for d in com_link -%}
+{%- if cl == "en" -%}{%- assign d_nome = d.nome_en -%}{%- else -%}{%- assign d_nome = d.nome -%}{%- endif -%}
+{% include button.html icon=d.icon text=d_nome link=d.link %}
+{%- endfor -%}
+</div>
+{%- else -%}
+<p><em>{% if cl == "en" %}Links to the published dataset will be added here soon.{% else %}Os links para o conjunto de dados publicado serão acrescentados aqui em breve.{% endif %}</em></p>
+{%- endif -%}

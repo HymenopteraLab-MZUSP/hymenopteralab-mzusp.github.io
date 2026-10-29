@@ -628,6 +628,61 @@ As publicações do laboratório estão na página <a href="/projects#publicacoe
 </style>
   </section>
 
+  
+  
+  
+
+  <section class="background" data-size="page">
+    <!--
+  <background></background>
+  <dark></dark>
+  <size></size>
+-->
+
+<h2 id="expedicoes">Expedições de campo</h2>
+
+<p>Boa parte do material que estudamos vem de expedições de campo, que também ampliam a Coleção de Hymenoptera do MZUSP. Clique em uma expedição para ver fotos, local e notícias.</p>
+
+<div class="expedicoes-cards">
+<a class="expedicao-card" href="/expedicoes/tulu-tuloi-ii/">
+<img src="/images/expedicoes/placeholder.jpg" alt="Expedição Tulu-Tuloi II" loading="lazy">
+<span class="expedicao-card-text">
+<span class="expedicao-card-title">Expedição Tulu-Tuloi II</span>
+<span class="expedicao-card-meta"><i class="fa-solid fa-location-dot"></i> Serra do Aracá, Amazonas · agosto de 2026</span>
+<span class="expedicao-card-resumo">Coleta de formigas e outros insetos no topo dos tepuis da Serra do Aracá.</span>
+</span>
+</a><a class="expedicao-card" href="/expedicoes/chapada-diamantina/">
+<img src="/images/expedicoes/placeholder.jpg" alt="Expedição à Chapada Diamantina" loading="lazy">
+<span class="expedicao-card-text">
+<span class="expedicao-card-title">Expedição à Chapada Diamantina</span>
+<span class="expedicao-card-meta"><i class="fa-solid fa-location-dot"></i> Chapada Diamantina, Bahia</span>
+</span>
+</a><a class="expedicao-card" href="/expedicoes/lagoa-do-casso/">
+<img src="/images/expedicoes/placeholder.jpg" alt="Expedição à Lagoa do Cassó" loading="lazy">
+<span class="expedicao-card-text">
+<span class="expedicao-card-title">Expedição à Lagoa do Cassó</span>
+<span class="expedicao-card-meta"><i class="fa-solid fa-location-dot"></i> Lagoa do Cassó, Maranhão</span>
+</span>
+</a><a class="expedicao-card" href="/expedicoes/bioparque-serra-negra/">
+<img src="/images/expedicoes/placeholder.jpg" alt="Expedição ao Bioparque Serra Negra" loading="lazy">
+<span class="expedicao-card-text">
+<span class="expedicao-card-title">Expedição ao Bioparque Serra Negra</span>
+<span class="expedicao-card-meta"><i class="fa-solid fa-location-dot"></i> Bioparque Serra Negra</span>
+</span>
+</a>
+</div>
+<style>
+.expedicoes-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; margin: 20px 0 40px; }
+.expedicao-card { display: flex; flex-direction: column; border: 1px solid var(--light-gray, #ddd); border-radius: var(--rounded, 10px); overflow: hidden; background: var(--background); color: var(--text); text-decoration: none; transition: box-shadow var(--transition); }
+.expedicao-card:hover { box-shadow: var(--shadow); }
+.expedicao-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+.expedicao-card-text { display: flex; flex-direction: column; gap: 4px; padding: 12px 15px 15px; }
+.expedicao-card-title { font-family: var(--heading); font-weight: var(--semi-bold); color: var(--strong, var(--text)); font-size: 1.1em; }
+.expedicao-card-meta { font-size: 0.9em; color: var(--gray); }
+.expedicao-card-resumo { font-size: 0.95em; line-height: 1.5; }
+</style>
+  </section>
+
 
     </main>
     

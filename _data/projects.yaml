@@ -6,17 +6,8 @@
   group: featured
   image: https://opengraph.githubassets.com/1/HymenopteraLab-MZUSP/pops-hymenoptera-mzusp
   link: https://github.com/HymenopteraLab-MZUSP/pops-hymenoptera-mzusp
-  description: Vinte procedimentos para recebimento, empréstimo, tombamento, material-tipo, amostragem destrutiva, conservação e segurança da Coleção de Hymenoptera do MZUSP.
+  description: Procedimentos para recebimento, empréstimo, tombamento, material-tipo, amostragem destrutiva, conservação e segurança da Coleção de Hymenoptera do MZUSP.
   repo: HymenopteraLab-MZUSP/pops-hymenoptera-mzusp
   tags:
     - protocolo
 
-- title: Modelo de repositório
-  subtitle: Para novos projetos do laboratório
-  group: featured
-  image: https://opengraph.githubassets.com/1/HymenopteraLab-MZUSP/template-hymenopteralab
-  link: https://github.com/HymenopteraLab-MZUSP/template-hymenopteralab
-  description: Estrutura padrão, licenças, arquivo de citação e seção de financiamento para todo repositório novo da organização.
-  repo: HymenopteraLab-MZUSP/template-hymenopteralab
-  tags:
-    - modelo

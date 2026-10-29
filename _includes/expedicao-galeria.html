@@ -1,0 +1,68 @@
+{%- comment -%}
+  Galeria automática: mostra todas as fotos da pasta images/expedicoes/<fotos>/.
+  Legendas opcionais em "legendas" no cabeçalho da página (nome do arquivo: texto).
+{%- endcomment -%}
+{%- assign ex_lang = page.lang | default: site.lang -%}
+{%- assign ex_folder = "images/expedicoes/" | append: page.fotos | append: "/" -%}
+{%- assign ex_imgs = site.static_files | where_exp: "f", "f.path contains ex_folder" | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.webp' or f.extname == '.JPG' or f.extname == '.JPEG' or f.extname == '.PNG'" | sort: "name" -%}
+<h2 id="{% if ex_lang == 'en' %}photos{% else %}fotos{% endif %}">{% if ex_lang == "en" %}Photos{% else %}Fotos{% endif %}</h2>
+{%- if ex_imgs.size > 0 %}
+<div class="galeria">
+{%- for f in ex_imgs -%}
+{%- assign f_path = f.path | remove_first: "/" -%}
+{%- assign f_leg = page.legendas[f.name] | default: "" %}
+<figure>
+<a href="{{ f_path | relative_url | uri_escape }}" class="galeria-link" data-legenda="{{ f_leg | xml_escape }}"><img src="{{ f_path | relative_url | uri_escape }}" alt="{{ f_leg | default: page.title | xml_escape }}" loading="lazy"></a>
+{%- if f_leg != "" %}<figcaption>{{ f_leg }}</figcaption>{% endif %}
+</figure>
+{%- endfor %}
+</div>
+<dialog class="galeria-dialog" aria-label="{% if ex_lang == 'en' %}Photo{% else %}Foto{% endif %}">
+<button class="galeria-fechar" aria-label="{% if ex_lang == 'en' %}Close{% else %}Fechar{% endif %}">&times;</button>
+<img src="" alt="">
+<p class="galeria-legenda"></p>
+</dialog>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const dlg = document.querySelector(".galeria-dialog");
+  if (!dlg || !dlg.showModal) return;
+  const img = dlg.querySelector("img"), leg = dlg.querySelector(".galeria-legenda");
+  document.querySelectorAll(".galeria-link").forEach((a) => {
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      img.src = a.href; img.alt = a.dataset.legenda || "";
+      leg.textContent = a.dataset.legenda || "";
+      dlg.showModal();
+    });
+  });
+  dlg.addEventListener("click", (e) => { if (e.target === dlg || e.target.classList.contains("galeria-fechar")) dlg.close(); });
+});
+</script>
+{%- else %}
+<p class="galeria-vazia"><img src="{{ 'images/expedicoes/placeholder.jpg' | relative_url }}" alt=""><em>{% if ex_lang == "en" %}Photos coming soon.{% else %}Fotos em breve.{% endif %}</em></p>
+{%- endif %}
+
+{%- if page.mapa and page.mapa != "" %}
+<h2 id="{% if ex_lang == 'en' %}location{% else %}local{% endif %}">{% if ex_lang == "en" %}Location{% else %}Local{% endif %}</h2>
+{% include map.html query=page.mapa title=page.local %}
+{%- endif %}
+
+{%- if page.noticia and page.noticia != "" %}
+{%- assign ex_post = site.posts | where: "slug", page.noticia | first -%}
+{%- if ex_post %}
+<p class="expedicao-noticia"><i class="fa-regular fa-newspaper"></i> {% if ex_lang == "en" %}News (in Portuguese){% else %}Notícia{% endif %}: <a href="{{ ex_post.url | relative_url }}">{{ ex_post.title }}</a></p>
+{%- endif %}
+{%- endif %}
+<style>
+.galeria { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 12px; margin: 20px 0 30px; }
+.galeria figure { margin: 0; }
+.galeria img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--rounded, 6px); display: block; cursor: zoom-in; }
+.galeria figcaption { font-size: 0.85em; color: var(--gray); margin-top: 4px; line-height: 1.4; }
+.galeria-dialog { max-width: min(95vw, 1200px); max-height: 95vh; padding: 10px; border: 0; border-radius: var(--rounded, 6px); background: var(--background); color: var(--text); }
+.galeria-dialog::backdrop { background: #000c; }
+.galeria-dialog img { max-width: 100%; max-height: 80vh; display: block; margin: 0 auto; }
+.galeria-legenda { text-align: center; margin: 8px 0 0; font-size: 0.95em; }
+.galeria-fechar { position: absolute; top: 6px; right: 10px; border: 0; background: none; font-size: 2rem; line-height: 1; color: var(--text); cursor: pointer; }
+.galeria-vazia { display: flex; flex-direction: column; align-items: center; gap: 8px; color: var(--gray); }
+.galeria-vazia img { width: min(100%, 360px); border-radius: var(--rounded, 6px); }
+</style>

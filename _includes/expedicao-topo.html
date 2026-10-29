@@ -1,0 +1,7 @@
+{%- assign ex_lang = page.lang | default: site.lang -%}
+<p class="expedicao-voltar"><a href="{% if ex_lang == 'en' %}{{ 'en/research/' | relative_url }}#field-expeditions{% else %}{{ 'research/' | relative_url }}#expedicoes{% endif %}"><i class="fa-solid fa-arrow-left"></i> {% if ex_lang == "en" %}All expeditions{% else %}Todas as expedições{% endif %}</a></p>
+<p class="expedicao-meta"><i class="fa-solid fa-location-dot"></i> {{ page.local }}{% if page.periodo and page.periodo != "" %} · <i class="fa-regular fa-calendar"></i> {{ page.periodo }}{% endif %}</p>
+<style>
+.expedicao-voltar { margin: 0 0 10px; font-size: 0.95em; }
+.expedicao-meta { color: var(--gray); margin-top: 0; }
+</style>

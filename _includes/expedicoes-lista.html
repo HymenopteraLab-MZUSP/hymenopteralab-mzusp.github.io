@@ -1,0 +1,40 @@
+{%- comment -%}
+  Cartões das expedições de campo (páginas com "expedicao: true"), no idioma da página.
+{%- endcomment -%}
+{%- assign ex_lang = page.lang | default: site.lang -%}
+{%- assign ex_pages = site.pages | where: "expedicao", true | sort: "ano_mes" | reverse -%}
+<div class="expedicoes-cards">
+{%- for ex in ex_pages -%}
+{%- assign ex_item_lang = ex.lang | default: site.lang -%}
+{%- if ex_item_lang == ex_lang -%}
+{%- assign ex_folder = "images/expedicoes/" | append: ex.fotos | append: "/" -%}
+{%- assign ex_capa = ex_folder | append: "capa.jpg" | file_exists -%}
+{%- unless ex_capa -%}
+{%- assign ex_imgs = site.static_files | where_exp: "f", "f.path contains ex_folder" | where_exp: "f", "f.extname == '.jpg' or f.extname == '.jpeg' or f.extname == '.png' or f.extname == '.webp' or f.extname == '.JPG' or f.extname == '.JPEG' or f.extname == '.PNG'" | sort: "name" -%}
+{%- assign ex_first = ex_imgs | first -%}
+{%- if ex_first -%}{%- assign ex_capa = ex_first.path | remove_first: "/" -%}{%- endif -%}
+{%- endunless -%}
+{%- assign ex_capa = ex_capa | default: "images/expedicoes/placeholder.jpg" -%}
+<a class="expedicao-card" href="{{ ex.url | relative_url }}">
+<img src="{{ ex_capa | relative_url | uri_escape }}" alt="{{ ex.title | xml_escape }}" loading="lazy">
+<span class="expedicao-card-text">
+<span class="expedicao-card-title">{{ ex.title }}</span>
+<span class="expedicao-card-meta"><i class="fa-solid fa-location-dot"></i> {{ ex.local }}{% if ex.periodo and ex.periodo != "" %} · {{ ex.periodo }}{% endif %}</span>
+{%- if ex.resumo and ex.resumo != "" %}
+<span class="expedicao-card-resumo">{{ ex.resumo }}</span>
+{%- endif %}
+</span>
+</a>
+{%- endif -%}
+{%- endfor -%}
+</div>
+<style>
+.expedicoes-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 20px; margin: 20px 0 40px; }
+.expedicao-card { display: flex; flex-direction: column; border: 1px solid var(--light-gray, #ddd); border-radius: var(--rounded, 10px); overflow: hidden; background: var(--background); color: var(--text); text-decoration: none; transition: box-shadow var(--transition); }
+.expedicao-card:hover { box-shadow: var(--shadow); }
+.expedicao-card img { width: 100%; aspect-ratio: 3 / 2; object-fit: cover; display: block; }
+.expedicao-card-text { display: flex; flex-direction: column; gap: 4px; padding: 12px 15px 15px; }
+.expedicao-card-title { font-family: var(--heading); font-weight: var(--semi-bold); color: var(--strong, var(--text)); font-size: 1.1em; }
+.expedicao-card-meta { font-size: 0.9em; color: var(--gray); }
+.expedicao-card-resumo { font-size: 0.95em; line-height: 1.5; }
+</style>

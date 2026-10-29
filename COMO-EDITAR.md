@@ -13,6 +13,7 @@ Tudo se edita direto no GitHub: abra o arquivo, clique no lápis (**Edit**), alt
 | Equipe | um arquivo por pessoa em `_members/`; ordem e nomes das categorias em `_data/team_sections.yaml` |
 | Financiamento | `funding/index.md` |
 | Notícias | um arquivo por notícia em `_posts/`; tabela "Na mídia" em `blog/index.md` e `en/news/index.md` |
+| Expedições de campo | uma página por expedição em `expedicoes/` e em `en/expeditions/`; fotos em `images/expedicoes/<nome>/` |
 | Fotos do grupo (uma por ano) | `_data/group_photos.yaml`; fotos em `images/grupo/` |
 | Contato (com mapa) | `contact/index.md` |
 | Fotos e imagens | pasta `images/` |
@@ -50,6 +51,16 @@ bio_en: The same profile in English.
 
 Valores de `role` (cada um vira uma categoria na página Equipe): `principal-investigator` (Pesquisadora principal), `gerente` (Gerente de coleções), `pesquisador`, `postdoc`, `phd` (Doutorado), `mestrado`, `undergrad` (Iniciação científica), `extensao`, `tecnico` (Treinamento técnico), `colaborador`, `coorientacao` (Coorientações) e, para egressos, `egresso-posdoc`, `egresso-doutorado`, `egresso-mestrado`, `egresso-tcc`, `egresso-ic`, `egresso-estagio` ou `ex-membro` (aparecem dentro de Egressos, em cartões sem foto).
 Quando alguém sair do laboratório, troque o `role` para a categoria de egresso correspondente e ajuste `description` (ex.: `Mestrado, 2026 — MZUSP`). Não apague o arquivo.
+
+## Expedições de campo
+
+As expedições aparecem no fim da página Pesquisa, em cartões que levam à página de cada uma.
+
+- **Fotos:** envie para `images/expedicoes/<nome-da-expedição>/` (por exemplo, `images/expedicoes/chapada-diamantina/`). Todas as fotos da pasta entram na galeria automaticamente. A foto chamada `capa.jpg` vira a capa do cartão; sem ela, a primeira foto é usada. Reduza as fotos para cerca de 1600 px no lado maior antes de enviar.
+- **Textos:** edite `expedicoes/<nome>/index.md` e a versão em inglês em `en/expeditions/<nome>/index.md`. No cabeçalho, preencha `periodo`, `ano_mes` (AAAA-MM, usado para ordenar), `local`, `mapa` e `resumo`. Abaixo do cabeçalho vai o texto da página.
+- **Legendas (opcional):** no cabeçalho, em `legendas:`, uma linha por foto, recuada com dois espaços: `  foto01.jpg: Coleta no platô`.
+- **Notícia relacionada (opcional):** em `noticia:`, o nome do arquivo da notícia em `_posts/`, sem a data e sem `.md` (ex.: `expedicao-tulu-tuloi-ii`).
+- **Nova expedição:** use **Add file → Create new file**, digite `expedicoes/<nome>/index.md` no nome (a barra cria a pasta) e cole o conteúdo de uma expedição existente. Faça o mesmo com `en/expeditions/<nome>/index.md`. Nos dois arquivos, troque `fotos:` pelo novo nome e ajuste `translation:` para apontar um para o outro.
 
 ## Publicações
 

@@ -102,3 +102,11 @@ Organização, digitalização e conservação do acervo, com [procedimentos ope
   }
   .linha-pesquisa .feature { margin: 0; }
 </style>
+
+{% include section.html %}
+
+## Expedições de campo {#expedicoes}
+
+Boa parte do material que estudamos vem de expedições de campo, que também ampliam a Coleção de Hymenoptera do MZUSP. Clique em uma expedição para ver fotos, local e notícias.
+
+{% include expedicoes-lista.html %}

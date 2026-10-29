@@ -103,3 +103,11 @@ Organization, digitization and conservation of the collection, with open [standa
   }
   .linha-pesquisa .feature { margin: 0; }
 </style>
+
+{% include section.html %}
+
+## Field expeditions {#field-expeditions}
+
+Much of the material we study comes from field expeditions, which also expand the MZUSP Hymenoptera Collection. Click an expedition to see photos, location and news.
+
+{% include expedicoes-lista.html %}

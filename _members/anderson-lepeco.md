@@ -1,7 +1,7 @@
 ---
 name: Anderson Lepeco
 image: images/equipe/anderson-lepeco.jpg
-role: colaborador
+role: egresso-colaborador
 description: Colaborador — sistemática de abelhas
 description_en: Collaborator — bee systematics
 aliases:

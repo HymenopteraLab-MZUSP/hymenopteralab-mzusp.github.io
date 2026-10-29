@@ -5,7 +5,7 @@ translation: /
 
 # Hymenoptera Laboratory
 
-The Hymenoptera Laboratory at the [Museum of Zoology of the University of São Paulo (MZUSP)](https://mz.usp.br/) studies the diversity, evolution and distribution of ants, wasps and bees, and cares for the museum's Hymenoptera Collection.
+The Hymenoptera Laboratory at the [Museum of Zoology of the University of São Paulo (MZUSP)](https://mz.usp.br/en/laboratorios/hymenoptera-en/) studies the diversity, evolution and distribution of ants, wasps and bees, and cares for the museum's Hymenoptera Collection.
 Here you will find our research lines, team, publications, and the protocols, code and data we produce.
 
 {%
@@ -14,12 +14,6 @@ Here you will find our research lines, team, publications, and the protocols, co
   text="Our repositories"
   link="HymenopteraLab-MZUSP"
 %}
-{%
-  include button.html
-  type="email"
-  text="Contact"
-  link="gpcamacho@usp.br"
-%}
 
 {% include section.html %}
 
@@ -27,7 +21,7 @@ Here you will find our research lines, team, publications, and the protocols, co
 
 {% capture text %}
 
-Systematics, phylogenomics and biogeography of Atlantic Forest ants and other Hymenoptera, using genomic data from fresh and museum specimens.
+Systematics, phylogenomics and biogeography of Hymenoptera, using genomic data from fresh and museum specimens.
 
 {%
   include button.html

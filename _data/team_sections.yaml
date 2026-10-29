@@ -75,3 +75,8 @@
   en: Other alumni
   sub: true
   compact: true
+- role: colaborador
+  pt: Colaboradores
+  en: Collaborators
+  sub: true
+  compact: true

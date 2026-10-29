@@ -19,3 +19,19 @@
   opacity: 0.25;
   z-index: -1;
 }
+
+// topo e rodapé: foto inteira, com uma camada escura para o texto ficar legível
+header.background:before,
+footer.background:before {
+  opacity: 1;
+  background-position: 50% 70%;
+}
+
+header.background:after,
+footer.background:after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(90deg, #1d1a15d9 0%, #1d1a15b3 50%, #1d1a159e 100%);
+  z-index: -1;
+}

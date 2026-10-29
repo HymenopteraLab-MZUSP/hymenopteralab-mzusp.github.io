@@ -21,14 +21,24 @@
   - Rodrigo Machado Feitosa
   - John E Lattke
   - Gabriela P Camacho
+
 - id: doi:10.11606/1807-0205/2023.63.021
   title: 'Contributions to the taxonomy of the Brazilian <i>Leurus</i> Townes, 1946 (Hymenoptera: Ichneumonidae, Metopiinae)'
+
 - id: doi:10.11646/zootaxa.5116.3.9
   title: '<i>Bazboltonia</i> nom. nov., a replacement name for the preoccupied Neotropical ant genus <i>Boltonia</i> Camacho &amp; Feitosa 2022 (Hymenoptera: Formicidae)'
+
 - id: doi:10.11646/zootaxa.4747.3.2
   title: 'Additions to the taxonomy of <i>Gnamptogenys</i> Roger (Hymenoptera: Formicidae: Ectatomminae) with an updated key to the New World species'
+
 - id: doi:10.4289/0013-8797.120.2.308
   title: 'Revision of the Fire Ants of the <i>Solenopsis saevissima</i> Species-Group (Hymenoptera: Formicidae)'
+
 - id: doi:10.1007/s11829-017-9559-8
-  title: 'Variation in the composition and activity of ants on defense of host plant <i>Turnera subulata</i> (Turneraceae): strong response to simulated herbivore attacks and to herbivore’s baits'
-  
+  title: "Variation in the composition and activity of ants on defense of host plant <i>Turnera subulata</i> (Turneraceae): strong response to simulated herbivore attacks and to herbivore’s baits"
+
+- id: "wosuid:ZOOREC:ZOOR15301004097"
+  remove: true
+
+- id: "wosuid:WOS:000948800900140"
+  remove: true

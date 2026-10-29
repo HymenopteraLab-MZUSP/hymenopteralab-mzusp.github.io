@@ -2,7 +2,7 @@
 # A página define o idioma com "lang: en" no cabeçalho; sem isso, vale pt-BR.
 
 pt-BR:
-  subtitle: Laboratório de Hymenoptera · MZUSP
+  subtitle: Museu de Zoologia da Universidade de São Paulo (MZUSP)
   home: Início
   home_url: /
   toggle_nav: mostrar/ocultar menu
@@ -28,7 +28,7 @@ pt-BR:
   repos_loading: Carregando repositórios…
 
 en:
-  subtitle: Hymenoptera Laboratory · MZUSP
+  subtitle: Museum of Zoology, University of São Paulo (MZUSP)
   home: Home
   home_url: /en/
   toggle_nav: show/hide menu

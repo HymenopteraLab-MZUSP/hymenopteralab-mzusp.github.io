@@ -39,7 +39,7 @@
 - heading: true
   pt: Egressos
   en: Alumni
-  roles: egresso-posdoc,egresso-doutorado,egresso-mestrado,egresso-tcc,egresso-ic,egresso-estagio,ex-membro
+  roles: egresso-posdoc,egresso-doutorado,egresso-mestrado,egresso-tcc,egresso-ic,egresso-estagio,ex-membro, egresso-colaborador
 - role: egresso-posdoc
   pt: Pós-doutorado
   en: Postdoctoral researchers
@@ -75,7 +75,7 @@
   en: Other alumni
   sub: true
   compact: true
-- role: colaborador
+- role: egresso-colaborador
   pt: Colaboradores
   en: Collaborators
   sub: true

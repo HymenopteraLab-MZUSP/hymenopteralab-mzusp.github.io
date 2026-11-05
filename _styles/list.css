@@ -11,13 +11,8 @@ ul {
 li {
   margin: 5px 0;
   padding-left: 10px;
-  text-align: left;
+  text-align: justify;
   line-height: var(--spacing);
-}
-@media (min-width: 700px) {
-  li {
-    text-align: justify;
-  }
 }
 li ul,
 li ol {

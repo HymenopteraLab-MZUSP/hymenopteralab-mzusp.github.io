@@ -382,7 +382,7 @@
 
 
 
-<header class="background" style="--image: url('/images/background.jpg?v=1793919040')" data-dark="true">
+<header class="background" style="--image: url('/images/background.jpg?v=1793919968')" data-dark="true">
   <a href="/en/" class="home">
     
       <span class="logo">
@@ -1114,11 +1114,15 @@
 </ul>
 
 <style>
-.member-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 1fr)); gap: 20px; margin: 20px 0 40px; }
+.member-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(380px, 100%), 1fr)); gap: 20px; margin: 20px 0 40px; }
 .member-card { display: flex; gap: 15px; align-items: flex-start; padding: 15px; border: 1px solid var(--light-gray, #ddd); border-radius: var(--rounded, 10px); background: var(--background, transparent); }
 .member-card-photo { flex: 0 0 auto; display: block; width: 180px; height: 180px; }
 .member-card-photo img { display: block; width: 180px; height: 180px; max-width: none; max-height: none; border-radius: 50%; object-fit: cover; object-position: 50% 30%; }
-@media (max-width: 420px) { .member-card-photo, .member-card-photo img { width: 90px; height: 90px; } }
+@media (max-width: 600px) {
+  .member-card { flex-direction: column; align-items: center; text-align: center; }
+  .member-card-photo, .member-card-photo img { width: 140px; height: 140px; }
+  .member-card-links { justify-content: center; }
+}
 .member-card-text { display: flex; flex-direction: column; gap: 4px; min-width: 20; }
 .member-card-name { font-weight: var(--bold, 600); color: var(--strong, inherit); text-decoration: none; font-size: 1.1em}
 .member-card-role { font-size: 0.9em; opacity: 0.75; }
@@ -1214,7 +1218,7 @@
 
 
 
-<footer class="background" style="--image: url('/images/background.jpg?v=1793919040')" data-dark="true" data-size="wide">
+<footer class="background" style="--image: url('/images/background.jpg?v=1793919968')" data-dark="true" data-size="wide">
   <!--
     <div>
       Extra details like contact info or address

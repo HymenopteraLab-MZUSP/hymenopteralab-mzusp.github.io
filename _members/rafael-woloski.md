@@ -2,8 +2,8 @@
 name: Rafael dos Santos Woloski
 image: images/equipe/rafael-woloski.jpg
 role: colaborador
-description: Colaborador — bioinformática
-description_en: Collaborator — bioinformatics
+description: Colaborador — bioinformata associado ao ([CMMZ](https://github.com/CMMZ-USP/))
+description_en: Collaborator — bioinformatics at ([CMMZ](https://github.com/CMMZ-USP/))
 affiliation: Centro de Museômica, Museu de Zoologia da USP
 aliases:
 - Rafael Woloski

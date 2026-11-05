@@ -27,12 +27,16 @@ header a {
 }
 
 .logo {
+  flex-shrink: 0;
+  width: 56px;
   height: 56px;
 }
 
 .logo > * {
-  width: unset;
+  width: 100%;
   height: 100%;
+  max-width: none;
+  object-fit: contain;
 }
 
 .title-text {
@@ -148,6 +152,7 @@ header[data-big] .home {
   flex-grow: 0;
 }
 header[data-big] .logo {
+  width: 140px;
   height: 140px;
   flex-shrink: 0;
 }

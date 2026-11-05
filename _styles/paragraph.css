@@ -1,7 +1,12 @@
 p {
   margin: 20px 0;
-  text-align: justify;
+  text-align: left;
   line-height: var(--spacing);
+}
+@media (min-width: 700px) {
+  p {
+    text-align: justify;
+  }
 }
 
 /*# sourceMappingURL=paragraph.css.map */

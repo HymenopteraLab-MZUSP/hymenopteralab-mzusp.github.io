@@ -472,7 +472,7 @@
 
 <header
   class="background"
-  style="--image: url('/images/background.jpg?v=1793916483')"
+  style="--image: url('/images/background.jpg?v=1793916952')"
   
     data-dark="true"
   
@@ -717,7 +717,7 @@
 
 <footer
   class="background"
-  style="--image: url('/images/background.jpg?v=1793916483')"
+  style="--image: url('/images/background.jpg?v=1793916952')"
   
     data-dark="true"
   

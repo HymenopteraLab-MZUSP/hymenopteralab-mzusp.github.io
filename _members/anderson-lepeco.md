@@ -2,8 +2,8 @@
 name: Anderson Lepeco
 image: images/equipe/anderson-lepeco.jpg
 role: egresso-colaborador
-description: Colaborador — sistemática de abelhas
-description_en: Collaborator — bee systematics
+description: Colaborador — geração de dados genômicos para o ([CMMZ](https://github.com/CMMZ-USP/))
+description_en: Collaborator — genomic data generation at ([CMMZ](https://github.com/CMMZ-USP/))
 aliases:
 - A. Lepeco
 links:

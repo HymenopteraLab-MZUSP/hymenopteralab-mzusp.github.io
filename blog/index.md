@@ -69,5 +69,7 @@ Acompanhe o laboratório em [@hymenopteralab](https://www.instagram.com/hymenopt
 .news-side { position: sticky; top: 20px; }
 .news-side .instagram-embed { margin: 0; }
 .news-main table { font-size: 0.9em; }
-@media (max-width: 900px) { .news-layout { grid-template-columns: 1fr; } .news-side { position: static; } }
+@media (max-width: 900px) { .news-layout { grid-template-columns: minmax(0, 1fr); } .news-side { position: static; } }
+.news-main, .news-side { min-width: 0; }
+.news-main table { display: block; overflow-x: auto; }
 </style>

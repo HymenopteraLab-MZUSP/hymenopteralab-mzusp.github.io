@@ -10,6 +10,37 @@ nav:
 
 Defesas, publicações, coletas, eventos e o laboratório na mídia.
 
+{% capture insta %}
+### Instagram
+
+Acompanhe o laboratório em [@hymenopteralab](https://www.instagram.com/hymenopteralab/).
+{% endcapture %}
+
+<div class="news-layout">
+<div class="news-main">
+<h2 id="ultimas-noticias">Últimas notícias</h2>
+{% include search-box.html %}
+{% include tags.html tags=site.tags %}
+{% include search-info.html %}
+{% include list.html data="posts" component="post-excerpt" %}
+{{ midia | markdownify }}
+</div>
+<aside class="news-side">
+{{ insta | markdownify }}
+{% include instagram.html user="hymenopteralab" %}
+</aside>
+</div>
+
+<style>
+.news-layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 40px; align-items: start; }
+.news-side { position: sticky; top: 20px; }
+.news-side .instagram-embed { margin: 0; }
+.news-main table { font-size: 0.9em; }
+@media (max-width: 900px) { .news-layout { grid-template-columns: minmax(0, 1fr); } .news-side { position: static; } }
+.news-main, .news-side { min-width: 0; }
+.news-main table { display: block; overflow-x: auto; }
+</style>
+
 {% include section.html %}
 
 {% capture midia %}
@@ -43,33 +74,4 @@ A descrição de *Vulcanidris cratensis*, em abril de 2025, foi notícia em veí
 <!-- Acrescente novas matérias no topo da tabela, da mais recente para a mais antiga. -->
 {% endcapture %}
 
-{% capture insta %}
-### Instagram
 
-Acompanhe o laboratório em [@hymenopteralab](https://www.instagram.com/hymenopteralab/).
-{% endcapture %}
-
-<div class="news-layout">
-<div class="news-main">
-<h2 id="ultimas-noticias">Últimas notícias</h2>
-{% include search-box.html %}
-{% include tags.html tags=site.tags %}
-{% include search-info.html %}
-{% include list.html data="posts" component="post-excerpt" %}
-{{ midia | markdownify }}
-</div>
-<aside class="news-side">
-{{ insta | markdownify }}
-{% include instagram.html user="hymenopteralab" %}
-</aside>
-</div>
-
-<style>
-.news-layout { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 40px; align-items: start; }
-.news-side { position: sticky; top: 20px; }
-.news-side .instagram-embed { margin: 0; }
-.news-main table { font-size: 0.9em; }
-@media (max-width: 900px) { .news-layout { grid-template-columns: minmax(0, 1fr); } .news-side { position: static; } }
-.news-main, .news-side { min-width: 0; }
-.news-main table { display: block; overflow-x: auto; }
-</style>

@@ -596,7 +596,12 @@ bio_en: The same profile in English.
 | `egresso-estagio` | Egressos → Estágio e outras orientações |
 | `ex-membro` | Egressos → Outros |
 
-- Egressos aparecem em cartões compactos, sem foto.
+- **Coorientações e egressos** aparecem como lista simples, um abaixo do outro: nome (com link para a página da pessoa), função (`description`) e ícones dos links acadêmicos, sem foto e sem caixa. O perfil (`bio`) e o texto completo continuam na página individual.
+- **Formato de cada categoria**, em `_data/team_sections.yaml`:
+  - sem nada: cartão com foto e perfil;
+  - `list: true`: lista simples, sem foto e sem caixa;
+  - `compact: true`: cartão sem foto.
+  Para trocar o formato de uma categoria, mude ou apague essa linha no bloco dela. O estilo da lista fica no fim de `_includes/team-sections.html`, nas linhas que começam com `.member-list`.
 - **Ordem e nomes das categorias:** `_data/team_sections.yaml`. Mudar a ordem dos blocos muda a ordem na página. Categorias sem ninguém não aparecem.
 - **Nova categoria:** acrescente um bloco em `team_sections.yaml` (`role`, `pt`, `en`) e outro em `_data/types.yaml` com o mesmo nome (`description`, `description_en`, `icon`).
 - Dentro de cada categoria, a ordem é alfabética pelo nome do arquivo.

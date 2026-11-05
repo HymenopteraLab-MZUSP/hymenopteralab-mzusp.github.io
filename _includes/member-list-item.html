@@ -1,0 +1,25 @@
+{%- comment -%}
+  Um item da lista simples da página Equipe (coorientações e egressos):
+  nome, função e ícones dos links acadêmicos, sem foto e sem caixa.
+{%- endcomment -%}
+{%- assign item_lang = page.lang | default: site.lang -%}
+{%- assign m = include.member -%}
+{%- assign m_type = site.data.types[m.role] -%}
+{%- if item_lang == "en" -%}
+{%- assign m_role = m.description_en | default: m_type.description_en | default: m.description | default: m_type.description -%}
+{%- else -%}
+{%- assign m_role = m.description | default: m_type.description -%}
+{%- endif -%}
+<li>
+<a class="member-list-name" href="{{ m.url | relative_url }}">{{ m.name }}</a>
+{%- if m_role and m_role != "" %} <span class="member-list-role">— {{ m_role }}</span>{% endif %}
+<span class="member-list-links">
+{%- assign link_keys = "lattes,orcid,google-scholar,researcherid" | split: "," -%}
+{%- for key in link_keys -%}
+{%- assign link_value = m.links[key] -%}
+{%- if link_value -%}
+{% include button.html type=key link=link_value style="bare" text="" %}
+{%- endif -%}
+{%- endfor -%}
+</span>
+</li>

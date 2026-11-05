@@ -13,6 +13,7 @@
 {%- assign heading_roles = section.roles | split: "," -%}
 {%- assign heading_count = 0 -%}
 {%- for r in heading_roles -%}
+{%- assign r = r | strip -%}
 {%- assign rm = site.members | where: "role", r -%}
 {%- assign heading_count = heading_count | plus: rm.size -%}
 {%- endfor -%}
@@ -27,11 +28,19 @@
 {%- else %}
 <h2 id="{{ section.role }}">{{ section_title }}</h2>
 {%- endif %}
+{%- if section.list %}
+<ul class="member-list">
+{%- for member in section_members %}
+{% include member-list-item.html member=member %}
+{%- endfor %}
+</ul>
+{%- else %}
 <div class="member-cards{% if section.compact %} member-cards-compact{% endif %}">
 {%- for member in section_members %}
 {% include member-card.html member=member compact=section.compact %}
 {%- endfor %}
 </div>
+{%- endif %}
 {% endif -%}
 {%- endif -%}
 {%- endfor %}
@@ -50,4 +59,12 @@
 .member-cards-compact { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; margin-bottom: 30px; }
 .member-cards-compact .member-card { padding: 12px; }
 .member-cards-compact .member-card-bio p { font-size: 0.9em; }
+.member-list { list-style: none; padding: 0; margin: 10px 0 30px; }
+.member-list li { margin: 0 0 8px; line-height: 1.5; }
+.member-list-name { font-weight: var(--semi-bold, 500); color: var(--strong, inherit); text-decoration: none; }
+.member-list-name:hover { text-decoration: underline; }
+.member-list-role { color: var(--gray); }
+.member-list-links { display: inline-flex; flex-wrap: wrap; gap: 2px; vertical-align: middle; margin-left: 4px; }
+.member-list-links .button-wrapper { margin: 0; }
+.member-list-links .button { padding: 2px 4px; }
 </style>

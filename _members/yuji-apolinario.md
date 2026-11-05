@@ -1,6 +1,6 @@
 ---
 name: Yuji Nakada Apolinário
-image: images/equipe/leonardo-andrade.jpg
+image: images/equipe/yuji-apolinario.jpg
 role: tecnico
 affiliation: Museu de Zoologia da USP
 aliases:

@@ -4,7 +4,7 @@ image: images/equipe/yuji-apolinario.jpg
 role: tecnico
 affiliation: Museu de Zoologia da USP
 aliases:
-- L. Andrade
+- Y. Apolinario
 bio: Aluno de graduação trabalhando com a fauna de abelhas da Serra do Mar na Coleção de Hymenoptera do MZUSP.
 bio_en: Undergraduate student studying Serra do Mar bees housed in the MZUSP Hymenoptera Collection..
 ---

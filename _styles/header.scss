@@ -39,12 +39,16 @@ header a {
 }
 
 .logo {
+  flex-shrink: 0;
+  width: $logo;
   height: $logo;
 }
 
 .logo > * {
-  width: unset;
+  width: 100%;
   height: 100%;
+  max-width: none;
+  object-fit: contain;
 }
 
 .title-text {
@@ -166,7 +170,8 @@ header[data-big] {
     flex-grow: 0;
   }
 
-  .logo {
+   .logo {
+    width: $logo-big;
     height: $logo-big;
     flex-shrink: 0;
   }

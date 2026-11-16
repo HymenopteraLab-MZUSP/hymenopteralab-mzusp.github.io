@@ -85,6 +85,71 @@
   orcid: 0000-0002-8792-7719
   plugin: orcid.py
   file: orcid.yaml
+- id: doi:10.1007/s00442-025-05828-8
+  title: 'Functional diversity of Brazilian bees: revealing the unique patterns of
+    the Neotropics'
+  authors:
+  - Guaraci D. Cordeiro
+  - Tereza C. Giannini
+  - Patrick M. Consorte
+  - Ana C. J. Costa
+  - Waira S. Machida
+  - Bruno F. Marques
+  - Nicholas D. Mazzei
+  - Poliana P. Menezes
+  - Ludmila S. Resende
+  - Juliana A. Shimoda
+  - Renata S. Souza
+  - "Andr\xE9 L. Acosta"
+  - Antonio J. C. Aguiar
+  - Eduardo A. B. Almeida
+  - Denise A. Alves
+  - Isabel Alves-dos-Santos
+  - Tamires O. Andrade
+  - Evandson J. Anjos-Silva
+  - Alexandre S. Barbosa
+  - Eduardo R. M. Barbosa
+  - Leilane A. Bezerra
+  - Rafael C. Borges
+  - Thaline F. Brito
+  - Gabriela P. Camacho
+  - Alistair J. Campbell
+  - Marina S. Castro
+  - Beatriz W. T. Coelho
+  - Rafael R. Ferrari
+  - "Carlos A. Gar\xF3falo"
+  - "Adrian D. Gonz\xE1lez-Chaves"
+  - Gabriel O. Keller
+  - Elinor M. Lichtenberg
+  - Leon Marshall
+  - "Carlos A. Mart\xEDnez-Mart\xEDnez"
+  - "Marl\xFAcia B. Martins"
+  - Aline C. Martins
+  - "M\xE1rcia M. Mau\xE9s"
+  - Henrique P. Moleiro
+  - Denise M. D. S. Mouga
+  - "Fav\xEDzia F. de Oliveira"
+  - Kelli S. Ramos
+  - Ramon L. Ramos
+  - "L\xE9o C. Rocha-Filho"
+  - Ian P. V. Santos
+  - Samara Santos
+  - "Jos\xE9 E. Santos J\xFAnior"
+  - Akira Shibata
+  - Daniel P. Silva
+  - Fernanda G. Sousa
+  - "C\xE9sar M. N. Teixeira"
+  - Allison L. Tietz
+  - Matheus E. Trindade-Santos
+  - "Patr\xEDcia S. Vilhena"
+  - Felipe Vivallo
+  - "Lu\xEDsa G. Carvalheiro"
+  publisher: Oecologia
+  date: '2025-12-02'
+  link: https://doi.org/hcsk4v
+  orcid: 0000-0002-8792-7719
+  plugin: orcid.py
+  file: orcid.yaml
 - id: doi:10.3897/zookeys.1264.173399
   title: A genus-level classification of the ant subfamily Ponerinae (Hymenoptera,
     Formicidae)
